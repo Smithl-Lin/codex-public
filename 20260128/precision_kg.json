@@ -1,0 +1,37 @@
+{
+  "KRAS G12C": {
+    "disease": [
+      "NSCLC",
+      "Colorectal Cancer"
+    ],
+    "approved_drugs": [
+      "Sotorasib (Lumakras)",
+      "Adagrasib (Krazati)"
+    ],
+    "related_pathways": "MAPK Signaling",
+    "clinical_relevance": "High-Value Target in US Precision Oncology"
+  },
+  "EGFR Exon 19 del": {
+    "disease": [
+      "NSCLC"
+    ],
+    "approved_drugs": [
+      "Osimertinib",
+      "Gefitinib"
+    ],
+    "related_pathways": "ErbB Signaling",
+    "clinical_relevance": "Standard of Care for Targeted Therapy"
+  },
+  "HER2 Positive": {
+    "disease": [
+      "Breast Cancer",
+      "Gastric Cancer"
+    ],
+    "approved_drugs": [
+      "Trastuzumab",
+      "T-DXd (Enhertu)"
+    ],
+    "related_pathways": "RTK Signaling",
+    "clinical_relevance": "Gold Standard for Antibody-Drug Conjugates (ADC)"
+  }
+}

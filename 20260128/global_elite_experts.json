@@ -1,0 +1,42 @@
+[
+  {
+    "id": "elite_jax_001",
+    "name": "Mayo-JAX Precision Team (DBS)",
+    "affiliation": "Mayo Clinic, Jacksonville, Florida",
+    "specialty": "Neuromodulation, Refractory Tremor, Parkinson's Disease",
+    "expertise_tags": ["STN-DBS", "GPi-DBS", "Robotic-Surgery", "Florida", "Clinical-Trial-Phase-III"],
+    "insurance_partners": ["Medicare", "BlueCross", "International-Private"],
+    "value_add_services": ["Hospital-Docking", "Travel-Concierge", "Concierge-Medicine"],
+    "location": {"city": "Jacksonville", "state": "Florida", "zip": "32224"}
+  },
+  {
+    "id": "elite_cle_002",
+    "name": "Cleveland Clinic Movement Center",
+    "affiliation": "Cleveland Clinic, Ohio",
+    "specialty": "Advanced Parkinsonism, Focused Ultrasound",
+    "expertise_tags": ["HIFU", "Focused-Ultrasound", "Neuro-Regeneration", "Global-Expert"],
+    "insurance_partners": ["Medicare", "Cigna", "Aetna"],
+    "value_add_services": ["Remote-Consultation", "Insurance-Liaison"],
+    "location": {"city": "Cleveland", "state": "Ohio", "zip": "44195"}
+  },
+  {
+    "id": "elite_jhu_003",
+    "name": "Johns Hopkins Neuroscience Lab",
+    "affiliation": "Johns Hopkins Medicine, Baltimore",
+    "specialty": "Cognitive Neurology, Alzheimer's Disease",
+    "expertise_tags": ["Biomarker-Testing", "Amyloid-Targeting", "New-Drug-Clinical-Trials"],
+    "insurance_partners": ["UnitedHealth", "Medicare"],
+    "value_add_services": ["Genetic-Counseling", "Research-Enrollment"],
+    "location": {"city": "Baltimore", "state": "Maryland", "zip": "21205"}
+  },
+  {
+    "id": "elite_mgh_004",
+    "name": "MGH Neurosurgery Group",
+    "affiliation": "Massachusetts General Hospital, Boston",
+    "specialty": "Neuro-Oncology, Precision Radiotherapy",
+    "expertise_tags": ["Proton-Therapy", "CyberKnife", "Intraoperative-MRI"],
+    "insurance_partners": ["Mass-Brigham-Health", "Medicare"],
+    "value_add_services": ["Fast-track-Admission", "International-Patient-Desk"],
+    "location": {"city": "Boston", "state": "Massachusetts", "zip": "02114"}
+  }
+]

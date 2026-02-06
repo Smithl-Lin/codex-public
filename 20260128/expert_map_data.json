@@ -1,0 +1,3645 @@
+[
+  {
+    "id": "exp_jax_001_v3",
+    "name": "Dr. Smith (Mayo JAX)",
+    "affiliation": "Mayo Clinic Jacksonville Florida",
+    "specialty": "Neuromodulation",
+    "expertise_tags": [
+      "STN-DBS",
+      "Parkinson",
+      "Florida",
+      "Jacksonville",
+      "DBS-Lead",
+      "Stereotactic"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "BlueCross"
+    ],
+    "value_add_services": [
+      "Travel-Concierge",
+      "Hospital-Docking"
+    ],
+    "location": {
+      "city": "Jacksonville",
+      "state": "Florida",
+      "zip": "32224"
+    }
+  },
+  {
+    "id": "exp_bulk_101",
+    "name": "Expert_101",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_102",
+    "name": "Expert_102",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_103",
+    "name": "Expert_103",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_104",
+    "name": "Expert_104",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_105",
+    "name": "Expert_105",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_106",
+    "name": "Expert_106",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_107",
+    "name": "Expert_107",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_108",
+    "name": "Expert_108",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_109",
+    "name": "Expert_109",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_110",
+    "name": "Expert_110",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_111",
+    "name": "Expert_111",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_112",
+    "name": "Expert_112",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_113",
+    "name": "Expert_113",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_114",
+    "name": "Expert_114",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_115",
+    "name": "Expert_115",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_116",
+    "name": "Expert_116",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_117",
+    "name": "Expert_117",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_118",
+    "name": "Expert_118",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_119",
+    "name": "Expert_119",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_120",
+    "name": "Expert_120",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_121",
+    "name": "Expert_121",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_122",
+    "name": "Expert_122",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_123",
+    "name": "Expert_123",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_124",
+    "name": "Expert_124",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_125",
+    "name": "Expert_125",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_126",
+    "name": "Expert_126",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_127",
+    "name": "Expert_127",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_128",
+    "name": "Expert_128",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_129",
+    "name": "Expert_129",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_130",
+    "name": "Expert_130",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_131",
+    "name": "Expert_131",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_132",
+    "name": "Expert_132",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_133",
+    "name": "Expert_133",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_134",
+    "name": "Expert_134",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_135",
+    "name": "Expert_135",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_136",
+    "name": "Expert_136",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_137",
+    "name": "Expert_137",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_138",
+    "name": "Expert_138",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_139",
+    "name": "Expert_139",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_140",
+    "name": "Expert_140",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_141",
+    "name": "Expert_141",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_142",
+    "name": "Expert_142",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_143",
+    "name": "Expert_143",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_144",
+    "name": "Expert_144",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_145",
+    "name": "Expert_145",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_146",
+    "name": "Expert_146",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_147",
+    "name": "Expert_147",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_148",
+    "name": "Expert_148",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "exp_bulk_149",
+    "name": "Expert_149",
+    "affiliation": "Other Clinic",
+    "specialty": "General Medicine",
+    "expertise_tags": [
+      "Internal-Medicine"
+    ],
+    "insurance_partners": [
+      "None"
+    ],
+    "value_add_services": [
+      "Standard"
+    ],
+    "location": {
+      "city": "Unknown",
+      "state": "US",
+      "zip": "00000"
+    }
+  },
+  {
+    "id": "pi_top_001",
+    "name": "Mayo Clinic - Rochester - Lead Clinical Team",
+    "affiliation": "Mayo Clinic - Rochester",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine",
+      "Travel-Concierge"
+    ],
+    "location": {
+      "city": "Rochester",
+      "state": "Minnesota",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_002",
+    "name": "Cleveland Clinic - Lead Clinical Team",
+    "affiliation": "Cleveland Clinic",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Neurology",
+      "Transplant",
+      "Oncology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Cleveland",
+      "state": "Ohio",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_003",
+    "name": "Toronto General - University Health Netw - Lead Clinical Team",
+    "affiliation": "Toronto General - University Health Network",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Cardiac-Surgery",
+      "Oncology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Toronto",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_004",
+    "name": "The Johns Hopkins Hospital - Lead Clinical Team",
+    "affiliation": "The Johns Hopkins Hospital",
+    "specialty": "Neurology",
+    "expertise_tags": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "Neurosurgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Baltimore",
+      "state": "Maryland",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_005",
+    "name": "Karolinska Universitetssjukhuset - Lead Clinical Team",
+    "affiliation": "Karolinska Universitetssjukhuset",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neuroscience",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Stockholm",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_006",
+    "name": "Massachusetts General Hospital - Lead Clinical Team",
+    "affiliation": "Massachusetts General Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Neurology",
+      "Cardiac-Surgery",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_007",
+    "name": "Charité - Universitätsmedizin Berlin - Lead Clinical Team",
+    "affiliation": "Charité - Universitätsmedizin Berlin",
+    "specialty": "Neurology",
+    "expertise_tags": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "Research",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Berlin",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_008",
+    "name": "Sheba Medical Center - Lead Clinical Team",
+    "affiliation": "Sheba Medical Center",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cardiology",
+      "Rehabilitation",
+      "Digital-Health",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Ramat Gan",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_009",
+    "name": "Singapore General Hospital (SGH) - Lead Clinical Team",
+    "affiliation": "Singapore General Hospital (SGH)",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Singapore",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_010",
+    "name": "Universitätsspital Zürich - Lead Clinical Team",
+    "affiliation": "Universitätsspital Zürich",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Zurich",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_011",
+    "name": "AP-HP - Hôpital Universitaire Pitié Salp - Lead Clinical Team",
+    "affiliation": "AP-HP - Hôpital Universitaire Pitié Salpêtrière",
+    "specialty": "Neurology",
+    "expertise_tags": [
+      "Neurology",
+      "Neurosurgery",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Paris",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_012",
+    "name": "Universitätsspital Basel - Lead Clinical Team",
+    "affiliation": "Universitätsspital Basel",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Basel",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_013",
+    "name": "Ronald Reagan UCLA Medical Center - Lead Clinical Team",
+    "affiliation": "Ronald Reagan UCLA Medical Center",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_014",
+    "name": "Universitätsklinikum Heidelberg - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Heidelberg",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Heidelberg",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_015",
+    "name": "Centre Hospitalier Universitaire Vaudois - Lead Clinical Team",
+    "affiliation": "Centre Hospitalier Universitaire Vaudois",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Lausanne",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_016",
+    "name": "The University of Tokyo Hospital - Lead Clinical Team",
+    "affiliation": "The University of Tokyo Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Tokyo",
+      "state": "Bunkyo",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_017",
+    "name": "Stanford Health Care - Stanford Hospital - Lead Clinical Team",
+    "affiliation": "Stanford Health Care - Stanford Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Stanford",
+      "state": "California",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_018",
+    "name": "Aarhus Universitetshospital - Lead Clinical Team",
+    "affiliation": "Aarhus Universitetshospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Aarhus",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_019",
+    "name": "The Mount Sinai Hospital - Lead Clinical Team",
+    "affiliation": "The Mount Sinai Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_020",
+    "name": "Rigshospitalet - Copenhagen University H - Lead Clinical Team",
+    "affiliation": "Rigshospitalet - Copenhagen University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Copenhagen",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_021",
+    "name": "Brigham and Women's Hospital - Lead Clinical Team",
+    "affiliation": "Brigham and Women's Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_022",
+    "name": "Hospital Israelita Albert Einstein - Lead Clinical Team",
+    "affiliation": "Hospital Israelita Albert Einstein",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "São Paulo",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_023",
+    "name": "LMU Klinikum - Lead Clinical Team",
+    "affiliation": "LMU Klinikum",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Munich",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_024",
+    "name": "Sunnybrook Health Sciences Centre - Lead Clinical Team",
+    "affiliation": "Sunnybrook Health Sciences Centre",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Trauma",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Toronto",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_025",
+    "name": "Asan Medical Center - Lead Clinical Team",
+    "affiliation": "Asan Medical Center",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Seoul",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_026",
+    "name": "CHU Lille - Hôpital Claude-Huriez - Lead Clinical Team",
+    "affiliation": "CHU Lille - Hôpital Claude-Huriez",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Lille",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_027",
+    "name": "Universitätsklinikum AKH Wien - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum AKH Wien",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Vienna",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_028",
+    "name": "Oslo Universitetssykehus - Lead Clinical Team",
+    "affiliation": "Oslo Universitetssykehus",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Oslo",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_029",
+    "name": "AP-HP - Hôpital Européen Georges Pompido - Lead Clinical Team",
+    "affiliation": "AP-HP - Hôpital Européen Georges Pompidou",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Cardiology",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Paris",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_030",
+    "name": "Samsung Medical Center - Lead Clinical Team",
+    "affiliation": "Samsung Medical Center",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Seoul",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_031",
+    "name": "Amsterdam UMC - Lead Clinical Team",
+    "affiliation": "Amsterdam UMC",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Amsterdam",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_032",
+    "name": "Mount Sinai Hospital (Canada) - Lead Clinical Team",
+    "affiliation": "Mount Sinai Hospital (Canada)",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Toronto",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_033",
+    "name": "St Thomas' Hospital - Lead Clinical Team",
+    "affiliation": "St Thomas' Hospital",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "London",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_034",
+    "name": "Cedars-Sinai Medical Center - Lead Clinical Team",
+    "affiliation": "Cedars-Sinai Medical Center",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_035",
+    "name": "Universitätsklinikum Hamburg-Eppendorf - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Hamburg-Eppendorf",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Hamburg",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_036",
+    "name": "St. Luke's International Hospital - Lead Clinical Team",
+    "affiliation": "St. Luke's International Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Tokyo",
+      "state": "Chuo",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_037",
+    "name": "Grande Ospedale Metropolitano Niguarda - Lead Clinical Team",
+    "affiliation": "Grande Ospedale Metropolitano Niguarda",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_038",
+    "name": "Northwestern Memorial Hospital - Lead Clinical Team",
+    "affiliation": "Northwestern Memorial Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_039",
+    "name": "UCSF Medical Center - Lead Clinical Team",
+    "affiliation": "UCSF Medical Center",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_040",
+    "name": "UZ Leuven - Lead Clinical Team",
+    "affiliation": "UZ Leuven",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Leuven",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_041",
+    "name": "Medizinische Hochschule Hannover - Lead Clinical Team",
+    "affiliation": "Medizinische Hochschule Hannover",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Burn-Care",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Hannover",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_042",
+    "name": "Seoul National University Hospital - Lead Clinical Team",
+    "affiliation": "Seoul National University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Seoul",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_043",
+    "name": "Helsinki University Hospital - Lead Clinical Team",
+    "affiliation": "Helsinki University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Helsinki",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_044",
+    "name": "Policlinico Universitario A. Gemelli - Lead Clinical Team",
+    "affiliation": "Policlinico Universitario A. Gemelli",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Rome",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_045",
+    "name": "Klinikum rechts der Isar - TU München - Lead Clinical Team",
+    "affiliation": "Klinikum rechts der Isar - TU München",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Munich",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_046",
+    "name": "Severance Hospital - Yonsei University - Lead Clinical Team",
+    "affiliation": "Severance Hospital - Yonsei University",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Seoul",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_047",
+    "name": "University of Michigan Health - Lead Clinical Team",
+    "affiliation": "University of Michigan Health",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_048",
+    "name": "Erasmus MC - Lead Clinical Team",
+    "affiliation": "Erasmus MC",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Rotterdam",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_049",
+    "name": "Hospital Universitario La Paz - Lead Clinical Team",
+    "affiliation": "Hospital Universitario La Paz",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Pediatrics",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Madrid",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_050",
+    "name": "Mayo Clinic - Jacksonville - Lead Clinical Team",
+    "affiliation": "Mayo Clinic - Jacksonville",
+    "specialty": "Neurology",
+    "expertise_tags": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "DBS",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Travel-Concierge",
+      "Hospital-Docking"
+    ],
+    "location": {
+      "city": "Jacksonville",
+      "state": "Florida",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_051",
+    "name": "Hospital of the University of Pennsylvan - Lead Clinical Team",
+    "affiliation": "Hospital of the University of Pennsylvania",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_052",
+    "name": "Duke University Hospital - Lead Clinical Team",
+    "affiliation": "Duke University Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Durham",
+      "state": "North Carolina",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_053",
+    "name": "NewYork-Presbyterian/Weill Cornell - Lead Clinical Team",
+    "affiliation": "NewYork-Presbyterian/Weill Cornell",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_054",
+    "name": "Vanderbilt University Medical Center - Lead Clinical Team",
+    "affiliation": "Vanderbilt University Medical Center",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_055",
+    "name": "Barnes-Jewish Hospital - Lead Clinical Team",
+    "affiliation": "Barnes-Jewish Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "St. Louis",
+      "state": "Missouri",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_056",
+    "name": "UPMC Presbyterian - Lead Clinical Team",
+    "affiliation": "UPMC Presbyterian",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_057",
+    "name": "Ohio State University Wexner Medical Cen - Lead Clinical Team",
+    "affiliation": "Ohio State University Wexner Medical Center",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Columbus",
+      "state": "Ohio",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_058",
+    "name": "University of Colorado Hospital - Lead Clinical Team",
+    "affiliation": "University of Colorado Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Aurora",
+      "state": "Colorado",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_059",
+    "name": "Bumrungrad International Hospital - Lead Clinical Team",
+    "affiliation": "Bumrungrad International Hospital",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Orthopedics",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Bangkok",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_060",
+    "name": "Apollo Hospitals (Chennai) - Lead Clinical Team",
+    "affiliation": "Apollo Hospitals (Chennai)",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_061",
+    "name": "Fudan University Shanghai Cancer Center - Lead Clinical Team",
+    "affiliation": "Fudan University Shanghai Cancer Center",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Radiation-Oncology",
+      "Clinical-Trial",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Shanghai",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_062",
+    "name": "National University Hospital Singapore - Lead Clinical Team",
+    "affiliation": "National University Hospital Singapore",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Singapore",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_063",
+    "name": "King's College Hospital London - Lead Clinical Team",
+    "affiliation": "King's College Hospital London",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Liver",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "London",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_064",
+    "name": "Addenbrooke's Hospital - Cambridge - Lead Clinical Team",
+    "affiliation": "Addenbrooke's Hospital - Cambridge",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Cambridge",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_065",
+    "name": "Churchill Hospital Oxford - Lead Clinical Team",
+    "affiliation": "Churchill Hospital Oxford",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Renal",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Oxford",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_066",
+    "name": "The Royal Marsden Hospital - Lead Clinical Team",
+    "affiliation": "The Royal Marsden Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "London",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_067",
+    "name": "Institut Gustave Roussy - Lead Clinical Team",
+    "affiliation": "Institut Gustave Roussy",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Villejuif",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_068",
+    "name": "Universitätsklinikum Frankfurt - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Frankfurt",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Frankfurt",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_069",
+    "name": "Universitätsklinikum Köln - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Köln",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Cologne",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_070",
+    "name": "Universitätsklinikum Düsseldorf - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Düsseldorf",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Düsseldorf",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_071",
+    "name": "Osaka University Hospital - Lead Clinical Team",
+    "affiliation": "Osaka University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Osaka",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_072",
+    "name": "Kyoto University Hospital - Lead Clinical Team",
+    "affiliation": "Kyoto University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "iPS-Cell-Research",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Kyoto",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_073",
+    "name": "National Cancer Center Korea - Lead Clinical Team",
+    "affiliation": "National Cancer Center Korea",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Goyang",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_074",
+    "name": "Taipei Veterans General Hospital - Lead Clinical Team",
+    "affiliation": "Taipei Veterans General Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Taipei",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_075",
+    "name": "Chang Gung Memorial Hospital - Lead Clinical Team",
+    "affiliation": "Chang Gung Memorial Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Taoyuan",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_076",
+    "name": "Royal Melbourne Hospital - Lead Clinical Team",
+    "affiliation": "Royal Melbourne Hospital",
+    "specialty": "Trauma",
+    "expertise_tags": [
+      "Trauma",
+      "Oncology",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Melbourne",
+      "state": "Victoria",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_077",
+    "name": "Westmead Hospital - Lead Clinical Team",
+    "affiliation": "Westmead Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Infectious-Disease",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Sydney",
+      "state": "New South Wales",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_078",
+    "name": "Princess Alexandra Hospital Brisbane - Lead Clinical Team",
+    "affiliation": "Princess Alexandra Hospital Brisbane",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Brisbane",
+      "state": "Queensland",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_079",
+    "name": "King Faisal Specialist Hospital Riyadh - Lead Clinical Team",
+    "affiliation": "King Faisal Specialist Hospital Riyadh",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Riyadh",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_080",
+    "name": "Cleveland Clinic Abu Dhabi - Lead Clinical Team",
+    "affiliation": "Cleveland Clinic Abu Dhabi",
+    "specialty": "Cardiac-Surgery",
+    "expertise_tags": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ],
+    "location": {
+      "city": "Abu Dhabi",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_081",
+    "name": "Clínica Alemana Santiago - Lead Clinical Team",
+    "affiliation": "Clínica Alemana Santiago",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cardiac-Surgery",
+      "Orthopedics",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Santiago",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_082",
+    "name": "Hospital Sírio-Libanês São Paulo - Lead Clinical Team",
+    "affiliation": "Hospital Sírio-Libanês São Paulo",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "São Paulo",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_083",
+    "name": "Hospital Moinhos de Vento - Lead Clinical Team",
+    "affiliation": "Hospital Moinhos de Vento",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Porto Alegre",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_084",
+    "name": "Hospital Alemán Buenos Aires - Lead Clinical Team",
+    "affiliation": "Hospital Alemán Buenos Aires",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Buenos Aires",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_085",
+    "name": "Groote Schuur Hospital - Lead Clinical Team",
+    "affiliation": "Groote Schuur Hospital",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Cardiac-Surgery",
+      "Oncology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Cape Town",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_086",
+    "name": "Chris Hani Baragwanath Hospital - Lead Clinical Team",
+    "affiliation": "Chris Hani Baragwanath Hospital",
+    "specialty": "Trauma",
+    "expertise_tags": [
+      "Trauma",
+      "Oncology",
+      "Transplant",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Johannesburg",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_087",
+    "name": "Universitätsklinikum Freiburg - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Freiburg",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Freiburg",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_088",
+    "name": "Universitätsklinikum Tübingen - Lead Clinical Team",
+    "affiliation": "Universitätsklinikum Tübingen",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Tübingen",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_089",
+    "name": "Hôpital Universitaire de Genève - Lead Clinical Team",
+    "affiliation": "Hôpital Universitaire de Genève",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Geneva",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_090",
+    "name": "Ospedale San Raffaele Milano - Lead Clinical Team",
+    "affiliation": "Ospedale San Raffaele Milano",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Gene-Therapy",
+      "Oncology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_091",
+    "name": "Hospital Clínic de Barcelona - Lead Clinical Team",
+    "affiliation": "Hospital Clínic de Barcelona",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Hepatology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Barcelona",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_092",
+    "name": "Radboudumc Nijmegen - Lead Clinical Team",
+    "affiliation": "Radboudumc Nijmegen",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Nijmegen",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_093",
+    "name": "Universitätsspital Bern - Lead Clinical Team",
+    "affiliation": "Universitätsspital Bern",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Bern",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_094",
+    "name": "Sahlgrenska Universitetssjukhuset - Lead Clinical Team",
+    "affiliation": "Sahlgrenska Universitetssjukhuset",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Gothenburg",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_095",
+    "name": "Universitetssykehuset Nord-Norge - Lead Clinical Team",
+    "affiliation": "Universitetssykehuset Nord-Norge",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Neurology",
+      "Arctic-Medicine",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Tromsø",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_096",
+    "name": "Turku University Hospital - Lead Clinical Team",
+    "affiliation": "Turku University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Turku",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_097",
+    "name": "Hospital Universitario 12 de Octubre - Lead Clinical Team",
+    "affiliation": "Hospital Universitario 12 de Octubre",
+    "specialty": "Transplant",
+    "expertise_tags": [
+      "Transplant",
+      "Oncology",
+      "Trauma",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Madrid",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_098",
+    "name": "Azienda Ospedaliero-Universitaria Bologn - Lead Clinical Team",
+    "affiliation": "Azienda Ospedaliero-Universitaria Bologna",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Bologna",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_099",
+    "name": "Nagoya University Hospital - Lead Clinical Team",
+    "affiliation": "Nagoya University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Nagoya",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  },
+  {
+    "id": "pi_top_100",
+    "name": "Chiba University Hospital - Lead Clinical Team",
+    "affiliation": "Chiba University Hospital",
+    "specialty": "Oncology",
+    "expertise_tags": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Clinical-Trial",
+      "International-Patient"
+    ],
+    "insurance_partners": [
+      "Medicare",
+      "International-Private"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ],
+    "location": {
+      "city": "Chiba",
+      "state": "",
+      "zip": ""
+    },
+    "linked_projects": []
+  }
+]

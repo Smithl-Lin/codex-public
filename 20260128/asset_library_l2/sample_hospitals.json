@@ -1,0 +1,12 @@
+[
+  {
+    "id": "hosp_fl_demo",
+    "name": "Demo Florida Center",
+    "region": "North America",
+    "country": "USA",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "specialty_focus": ["Neurology"],
+    "value_add_services": ["Hospital-Docking"]
+  }
+]

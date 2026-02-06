@@ -1,0 +1,32 @@
+{
+  "description": "L2 Cultural Main Complaint Equalization. Maps multilingual/cultural chief complaint phrases to canonical equitable text for model analysis. No PII.",
+  "version": "1.0",
+  "locale_hints": ["en", "zh", "zh-HK", "zh-SG", "en-GB", "en-US", "de", "fr", "es", "ja", "ko", "ar", "default"],
+  "phrase_mappings": [
+    {"source_phrases": ["主诉", "chief complaint", "presenting complaint", "Hauptbeschwerde", "motif de consultation", "queja principal"], "canonical_complaint": "Chief complaint", "category": "meta"},
+    {"source_phrases": ["头痛", "headache", "Kopfschmerzen", "céphalée", "dolor de cabeza", "頭痛", "두통"], "canonical_complaint": "Headache", "category": "symptom"},
+    {"source_phrases": ["胸痛", "chest pain", "Brustschmerzen", "douleur thoracique", "dolor de pecho", "胸痛", "가슴 통증"], "canonical_complaint": "Chest pain", "category": "symptom"},
+    {"source_phrases": ["帕金森", "Parkinson", "Parkinson's", "Parkinson disease", "帕金森病", "パーキンソン", "파킨슨"], "canonical_complaint": "Parkinson disease", "category": "condition"},
+    {"source_phrases": ["肺癌", "lung cancer", "NSCLC", "Lungenkrebs", "cancer du poumon", "肺がん", "폐암"], "canonical_complaint": "Lung cancer", "category": "condition"},
+    {"source_phrases": ["脑瘤", "brain tumor", "glioblastoma", "Hirntumor", "tumeur cérébrale", "脳腫瘍", "뇌종양"], "canonical_complaint": "Brain tumor", "category": "condition"},
+    {"source_phrases": ["失眠", "insomnia", "sleep complaint", "Schlaflosigkeit", "insomnie", "不眠", "불면"], "canonical_complaint": "Insomnia", "category": "symptom"},
+    {"source_phrases": ["记忆减退", "memory complaint", "memory loss", "Gedächtnisstörung", "trouble de mémoire", "記憶障害", "기억력 저하"], "canonical_complaint": "Memory complaint", "category": "symptom"},
+    {"source_phrases": ["寻求", "seeking", "seeking care", "suche", "recherche", "求める", "찾는"], "canonical_complaint": "Seeking care", "category": "intent"},
+    {"source_phrases": ["前哨", "frontier", "cutting-edge", "clinical trial", "临床试验", "臨床試験", "임상 시험"], "canonical_complaint": "Clinical trial or frontier care", "category": "intent"},
+    {"source_phrases": ["金标准", "gold standard", "standard of care", "Leitlinie", "standard"], "canonical_complaint": "Gold standard care", "category": "intent"},
+    {"source_phrases": ["DBS", "脑深部刺激", "deep brain stimulation", "tiefe Hirnstimulation", "stimulation cérébrale"], "canonical_complaint": "Deep brain stimulation (DBS)", "category": "treatment"},
+    {"source_phrases": ["免疫治疗", "immunotherapy", "Immuntherapie", "immunothérapie", "免疫療法"], "canonical_complaint": "Immunotherapy", "category": "treatment"},
+    {"source_phrases": ["抑郁", "depression", "Depression", "dépression", "우울", "抑うつ"], "canonical_complaint": "Depression", "category": "condition"},
+    {"source_phrases": ["糖尿病", "diabetes", "Diabetes", "diabète", "糖尿病", "당뇨"], "canonical_complaint": "Diabetes", "category": "condition"},
+    {"source_phrases": ["高血压", "hypertension", "high blood pressure", "Bluthochdruck", "hypertension", "高血圧", "고혈압"], "canonical_complaint": "Hypertension", "category": "condition"}
+  ],
+  "locale_detection_rules": {
+    "zh": ["[\u4e00-\u9fff]"],
+    "ja": ["[\u3040-\u309f]", "[\u30a0-\u30ff]"],
+    "ko": ["[\uac00-\ud7af]"],
+    "ar": ["[\u0600-\u06ff]"],
+    "default": []
+  },
+  "output_language": "en",
+  "equalization_policy": "Canonical English clinical phrasing; culture-neutral; for downstream model analysis only. No PII."
+}

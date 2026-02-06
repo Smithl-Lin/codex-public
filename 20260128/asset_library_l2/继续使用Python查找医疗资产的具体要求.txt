@@ -1,0 +1,137 @@
+================================================================================
+L2 医疗资产 — 继续使用 Python 查找/纳入医疗资产的具体要求
+================================================================================
+Stamp: V4.0_STRATEGIC_LOCKED_BY_SMITH_LIN
+Purpose: 全球持续采集时，使用 Python 查找医疗资产并纳入资产库的字段、格式与调用要求。
+Last Updated: 2026-01-28
+================================================================================
+
+一、纳入原则
+--------------------------------------------------------------------------------
+1. 仅纳入非患者个人可识别资料：医院、临床研究（试验）、PI/专家、研究中心等。
+2. 每条纳入须：符合下述格式、通过质量校验、写入对应数据源文件并记录 working log（时间、内容、纳入条目摘要）。
+
+
+二、资产类型与纳入格式
+--------------------------------------------------------------------------------
+
+【2.1 临床研究（Clinical Trial / Study）】
+目标文件: merged_data.json（或 all_trials.json 作为补充源）
+
+字段            类型        必填    说明
+--------------------------------------------------------------------------------
+id              string      是      唯一标识，建议 NCT 编号或官方 trial ID
+title           string      是      可选用 brief_title
+status          string      是      如 RECRUITING, COMPLETED, ACTIVE_NOT_RECRUITING；可选用 overall_status
+criteria        string      否      入选/排除标准全文或摘要
+source          string      否      如 ClinicalTrials.gov, JRCT, EUCTR
+category        string      否      如 Oncology, Neurology, Cardiology
+
+质量要求:
+- id 不与现有 merged_data 重复。
+- title 或 category 中含以下至少一词（用于 Advanced_Therapeutic_Assets）：fda, clinical trial, cell therapy, gene therapy, stem cell, bci, brain-computer, neuro（或后续扩展标签）。
+
+示例（JSON 单条）:
+{"id": "NCT01234567", "title": "Phase III Trial of XYZ in NSCLC", "status": "RECRUITING", "criteria": "Inclusion: ...", "source": "ClinicalTrials.gov", "category": "Oncology"}
+
+
+【2.2 专家 / PI（Principal Investigator）】
+目标文件: expert_map_data.json
+
+字段                类型            必填    说明
+--------------------------------------------------------------------------------
+id                  string          是      唯一标识；可与 name 二选一存在
+name                string          是      姓名或团队名
+affiliation         string          是      机构/医院名称
+specialty           string          否      专科
+expertise_tags      array of string 否      如 STN-DBS, Parkinson, Phase-III
+insurance_partners  array of string 否      如 Medicare, BlueCross
+value_add_services  array of string 否      如 Travel-Concierge, Hospital-Docking
+location            object          否      {"city", "state", "zip"} 或等效
+linked_projects     array of string 否      关联的试验 id 列表
+
+质量要求:
+- id 或 name + affiliation 组合不与现有记录重复。
+- affiliation 需为可解析的机构名（医院/大学/研究中心）。
+
+
+【2.3 医院 / 研究中心（Hospital / Research Center）】
+目标文件: hospital_center_assets.json
+
+字段                类型            必填    说明
+--------------------------------------------------------------------------------
+id                  string          是      唯一标识
+name                string          是      机构显示名
+affiliation         string          否      上级机构或同义名
+region              string          否      North America, Europe, Asia-Pacific, Specialized
+country             string          否      ISO 或常用国名
+city                string          否      城市
+state               string          否      州/省（适用时）
+specialty_focus     array of string 否      如 Oncology, Neurology
+value_add_services  array of string 否      如 International-Patient-Desk
+
+质量要求:
+- id 唯一；name 非空。
+- 非患者、非个人可识别信息。
+
+
+三、纳入流程与 Working Log
+--------------------------------------------------------------------------------
+1. 校验：按上表检查必填、类型、唯一性。
+2. 对齐内部格式：脚本将外部字段映射为现有 L2 内部字段；缺失可选字段用默认或空。
+3. 写入：
+   - 临床研究 → 追加 merged_data.json
+   - 专家/PI → 追加 expert_map_data.json
+   - 医院/中心 → 追加 hospital_center_assets.json
+4. Working Log 每条包含：time（ISO 8601 UTC）、action（ingest_trial/ingest_pi/ingest_hospital）、content_summary、ids_added。
+   Log 文件：asset_library_l2/working_log.jsonl、working_log.md
+
+
+四、使用 Python 查找与纳入的具体要求（调用方式）
+--------------------------------------------------------------------------------
+
+4.1 命令行调用（从 20260128 目录执行）
+
+  python asset_library_l2/asset_ingest.py trial    <path_to_new_trials.json>
+  python asset_library_l2/asset_ingest.py pi       <path_to_new_pis.json>
+  python asset_library_l2/asset_ingest.py hospital <path_to_new_hospitals.json>
+
+  说明：<path_to_*.json> 为符合上述格式的 JSON 文件路径（可为单条对象或数组）。
+
+
+4.2 在 Python 代码中调用（嵌入采集/爬虫流水线）
+
+  1) 设置路径后导入：
+     import sys
+     sys.path.insert(0, "20260128")   # 或你的项目根路径
+     from asset_library_l2.asset_ingest import ingest
+
+  2) 按资产类型调用，传入符合第二节格式的字典列表：
+     count, ids = ingest("trial",   [{"id": "NCT...", "title": "...", "status": "RECRUITING", ...}])
+     count, ids = ingest("pi",       [{"id": "pi_001", "name": "Dr. X", "affiliation": "Mayo Clinic", ...}])
+     count, ids = ingest("hospital", [{"id": "hosp_001", "name": "XYZ Hospital", ...}])
+
+  3) 返回值：count 为本次新增条数，ids 为本次纳入的 id 列表。重复 id 不会再次写入。
+
+
+4.3 查找/采集端要求（用 Python 查找医疗资产时）
+
+  - 采集输出必须符合第二节中对应类型的字段与必填项。
+  - 临床研究：建议从 ClinicalTrials.gov、JRCT、EUCTR 等 API 或爬虫获取，输出 id/title/status 及可选 criteria/source/category。
+  - 专家/PI：从机构页面、论文作者、试验联系人等解析，输出 id/name/affiliation 及可选 specialty、expertise_tags、location、linked_projects。
+  - 医院/中心：从机构名录、地理库等解析，输出 id/name 及可选 region、country、city、state、specialty_focus、value_add_services。
+  - 采集脚本输出 JSON 后，直接调用 ingest() 即可完成格式对齐、写入资产库与 working log 记录。
+
+
+五、文件与脚本位置
+--------------------------------------------------------------------------------
+- 本要求文件（.txt）: 20260128/asset_library_l2/继续使用Python查找医疗资产的具体要求.txt
+- 纳入脚本: 20260128/asset_library_l2/asset_ingest.py
+- 已有资产说明: 20260128/asset_library_l2/01_existing_assets.md
+- 格式规范（Markdown）: 20260128/asset_library_l2/02_ingestion_spec.md
+- Working Log: 20260128/asset_library_l2/working_log.jsonl、working_log.md
+- 资产数据文件: 20260128/merged_data.json、expert_map_data.json、hospital_center_assets.json
+
+================================================================================
+End of 继续使用Python查找医疗资产的具体要求
+================================================================================

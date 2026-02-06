@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.local
+*.pem
+google_key.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and DB (optional; uncomment if not versioned)
+# medical_db/
+# amah_vector_db/
+# *.json
+# !amah_config.json
+
+# Logs
+*.log
+.Rhistory

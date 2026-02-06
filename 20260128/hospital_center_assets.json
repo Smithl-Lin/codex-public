@@ -1,0 +1,1995 @@
+[
+  {
+    "id": "hosp_fl_demo",
+    "name": "Demo Florida Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "specialty_focus": [
+      "Neurology"
+    ],
+    "value_add_services": [
+      "Hospital-Docking"
+    ]
+  },
+  {
+    "id": "MA_20260131_6E2E160B",
+    "name": "Neuralink",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Fremont",
+    "state": "",
+    "specialty_focus": [],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_4F2ACE46",
+    "name": "Synchron",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Brooklyn",
+    "state": "",
+    "specialty_focus": [],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_152C09C4",
+    "name": "Paradromics",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Austin",
+    "state": "",
+    "specialty_focus": [],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_2EF90784",
+    "name": "Mayo Clinic",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Rochester",
+    "state": "",
+    "specialty_focus": [
+      "Hypertension",
+      "Pancreatic Cancer",
+      "Neoplasms",
+      "Ulcerative Colitis",
+      "Acute Lymphoblastic Leukemia/Lymphoma"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_853A9550",
+    "name": "Cleveland Clinic",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Cleveland",
+    "state": "",
+    "specialty_focus": [
+      "Lung Cancer",
+      "Acute Lymphoblastic Leukemia/Lymphoma",
+      "Myelodysplasia",
+      "Acute Myelogenous Leukemia",
+      "Juvenile Myelomonocytic Leukemia"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_DCF1C10D",
+    "name": "Johns Hopkins Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Baltimore",
+    "state": "",
+    "specialty_focus": [
+      "HIV Infections",
+      "Depression",
+      "HIV I Infection",
+      "Myasthenia Gravis",
+      "Anatomic Stage III Breast Cancer AJCC v8"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_36FE8B46",
+    "name": "Massachusetts General Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "USA",
+    "city": "Boston",
+    "state": "",
+    "specialty_focus": [
+      "Melanoma",
+      "Ulcerative Colitis",
+      "Colorectal Cancer",
+      "Prostate Cancer",
+      "Triple Negative Breast Cancer"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_8CB73387",
+    "name": "Toronto General Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "Canada",
+    "city": "Toronto",
+    "state": "",
+    "specialty_focus": [
+      "Ovarian Cancer",
+      "Melanoma",
+      "Colorectal Cancer",
+      "Neoplasms",
+      "Atrial Fibrillation"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_9029D714",
+    "name": "Charité - Universitätsmedizin Berlin",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Berlin",
+    "state": "",
+    "specialty_focus": [
+      "Ovarian Cancer",
+      "Heart Failure",
+      "Ileostomy",
+      "Colostomy",
+      "Migraine"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_F07FD857",
+    "name": "The London Clinic",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "UK",
+    "city": "London",
+    "state": "",
+    "specialty_focus": [
+      "Metastatic Bladder Urothelial Carcinoma",
+      "Metastatic Urothelial Carcinoma",
+      "Refractory Bladder Urothelial Carcinoma",
+      "Refractory Urothelial Carcinoma",
+      "Stage IV Bladder Cancer AJCC v8"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_F768CC92",
+    "name": "Singapore General Hospital",
+    "affiliation": "",
+    "region": "",
+    "country": "",
+    "city": "Singapore",
+    "state": "",
+    "specialty_focus": [
+      "Heart Failure",
+      "Hypertension",
+      "Hypokalemia",
+      "Left Bundle-Branch Block",
+      "Heart Failure With Reduced Ejection Fraction (HFrEF)"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_1212B4C0",
+    "name": "Tokyo University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Tokyo",
+    "state": "",
+    "specialty_focus": [
+      "Carcinoma, Non-Small-Cell Lung",
+      "Small Cell Lung Carcinoma",
+      "Ulcerative Colitis",
+      "Idiopathic Pulmonary Fibrosis",
+      "Diabetes Mellitus, Type 2"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "MA_20260131_05EF0E37",
+    "name": "AP-HP Pitié-Salpêtrière",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "France",
+    "city": "Paris",
+    "state": "",
+    "specialty_focus": [
+      "Obesity",
+      "Cancer",
+      "Behçet's Syndrome (BS)",
+      "Heart Failure",
+      "Myocarditis"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "bci_neuralink",
+    "name": "Neuralink",
+    "affiliation": "",
+    "region": "",
+    "country": "",
+    "city": "USA",
+    "state": "",
+    "specialty_focus": [
+      "Brain-Computer Interface"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "bci_synchron",
+    "name": "Synchron",
+    "affiliation": "",
+    "region": "",
+    "country": "",
+    "city": "USA",
+    "state": "",
+    "specialty_focus": [
+      "Endovascular BCI"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "bci_paradromics",
+    "name": "Paradromics",
+    "affiliation": "",
+    "region": "",
+    "country": "",
+    "city": "USA",
+    "state": "",
+    "specialty_focus": [
+      "High-Data-Rate BCI"
+    ],
+    "value_add_services": []
+  },
+  {
+    "id": "hosp_top_001",
+    "name": "Mayo Clinic - Rochester",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Rochester",
+    "state": "Minnesota",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Orthopedics"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine",
+      "Travel-Concierge"
+    ]
+  },
+  {
+    "id": "hosp_top_002",
+    "name": "Cleveland Clinic",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Neurology",
+      "Transplant",
+      "Oncology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_003",
+    "name": "Toronto General - University Health Network",
+    "affiliation": "",
+    "region": "North America",
+    "country": "Canada",
+    "city": "Toronto",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Cardiac-Surgery",
+      "Oncology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_004",
+    "name": "The Johns Hopkins Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "specialty_focus": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "Neurosurgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_005",
+    "name": "Karolinska Universitetssjukhuset",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neuroscience"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_006",
+    "name": "Massachusetts General Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "specialty_focus": [
+      "Oncology",
+      "Neurology",
+      "Cardiac-Surgery",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_007",
+    "name": "Charité - Universitätsmedizin Berlin",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Berlin",
+    "state": "",
+    "specialty_focus": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "Research"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_008",
+    "name": "Sheba Medical Center",
+    "affiliation": "",
+    "region": "Middle East",
+    "country": "Israel",
+    "city": "Ramat Gan",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cardiology",
+      "Rehabilitation",
+      "Digital-Health"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_009",
+    "name": "Singapore General Hospital (SGH)",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Singapore",
+    "city": "Singapore",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_010",
+    "name": "Universitätsspital Zürich",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_011",
+    "name": "AP-HP - Hôpital Universitaire Pitié Salpêtrière",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "France",
+    "city": "Paris",
+    "state": "",
+    "specialty_focus": [
+      "Neurology",
+      "Neurosurgery",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_012",
+    "name": "Universitätsspital Basel",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Switzerland",
+    "city": "Basel",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_013",
+    "name": "Ronald Reagan UCLA Medical Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Los Angeles",
+    "state": "California",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_014",
+    "name": "Universitätsklinikum Heidelberg",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Heidelberg",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_015",
+    "name": "Centre Hospitalier Universitaire Vaudois",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_016",
+    "name": "The University of Tokyo Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Tokyo",
+    "state": "Bunkyo",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_017",
+    "name": "Stanford Health Care - Stanford Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Stanford",
+    "state": "California",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_018",
+    "name": "Aarhus Universitetshospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Denmark",
+    "city": "Aarhus",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_019",
+    "name": "The Mount Sinai Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "New York",
+    "state": "New York",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_020",
+    "name": "Rigshospitalet - Copenhagen University Hospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_021",
+    "name": "Brigham and Women's Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_022",
+    "name": "Hospital Israelita Albert Einstein",
+    "affiliation": "",
+    "region": "South America",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_023",
+    "name": "LMU Klinikum",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Munich",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_024",
+    "name": "Sunnybrook Health Sciences Centre",
+    "affiliation": "",
+    "region": "North America",
+    "country": "Canada",
+    "city": "Toronto",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Trauma",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_025",
+    "name": "Asan Medical Center",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "South Korea",
+    "city": "Seoul",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_026",
+    "name": "CHU Lille - Hôpital Claude-Huriez",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "France",
+    "city": "Lille",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_027",
+    "name": "Universitätsklinikum AKH Wien",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Austria",
+    "city": "Vienna",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_028",
+    "name": "Oslo Universitetssykehus",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Norway",
+    "city": "Oslo",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_029",
+    "name": "AP-HP - Hôpital Européen Georges Pompidou",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "France",
+    "city": "Paris",
+    "state": "",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Cardiology",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_030",
+    "name": "Samsung Medical Center",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "South Korea",
+    "city": "Seoul",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_031",
+    "name": "Amsterdam UMC",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "The Netherlands",
+    "city": "Amsterdam",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_032",
+    "name": "Mount Sinai Hospital (Canada)",
+    "affiliation": "",
+    "region": "North America",
+    "country": "Canada",
+    "city": "Toronto",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_033",
+    "name": "St Thomas' Hospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "city": "London",
+    "state": "",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_034",
+    "name": "Cedars-Sinai Medical Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Los Angeles",
+    "state": "California",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_035",
+    "name": "Universitätsklinikum Hamburg-Eppendorf",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Hamburg",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_036",
+    "name": "St. Luke's International Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Tokyo",
+    "state": "Chuo",
+    "specialty_focus": [
+      "Oncology",
+      "Cardiology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_037",
+    "name": "Grande Ospedale Metropolitano Niguarda",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Italy",
+    "city": "Milan",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_038",
+    "name": "Northwestern Memorial Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Chicago",
+    "state": "Illinois",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_039",
+    "name": "UCSF Medical Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "San Francisco",
+    "state": "California",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_040",
+    "name": "UZ Leuven",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Belgium",
+    "city": "Leuven",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_041",
+    "name": "Medizinische Hochschule Hannover",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Hannover",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Burn-Care"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_042",
+    "name": "Seoul National University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "South Korea",
+    "city": "Seoul",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_043",
+    "name": "Helsinki University Hospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Finland",
+    "city": "Helsinki",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_044",
+    "name": "Policlinico Universitario A. Gemelli",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Italy",
+    "city": "Rome",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_045",
+    "name": "Klinikum rechts der Isar - TU München",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Munich",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_046",
+    "name": "Severance Hospital - Yonsei University",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "South Korea",
+    "city": "Seoul",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_047",
+    "name": "University of Michigan Health",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_048",
+    "name": "Erasmus MC",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "The Netherlands",
+    "city": "Rotterdam",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_049",
+    "name": "Hospital Universitario La Paz",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Spain",
+    "city": "Madrid",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Pediatrics"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_050",
+    "name": "Mayo Clinic - Jacksonville",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "specialty_focus": [
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "DBS"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Travel-Concierge",
+      "Hospital-Docking"
+    ]
+  },
+  {
+    "id": "hosp_top_051",
+    "name": "Hospital of the University of Pennsylvania",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_052",
+    "name": "Duke University Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Durham",
+    "state": "North Carolina",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_053",
+    "name": "NewYork-Presbyterian/Weill Cornell",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "New York",
+    "state": "New York",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_054",
+    "name": "Vanderbilt University Medical Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_055",
+    "name": "Barnes-Jewish Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_056",
+    "name": "UPMC Presbyterian",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_057",
+    "name": "Ohio State University Wexner Medical Center",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Columbus",
+    "state": "Ohio",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_058",
+    "name": "University of Colorado Hospital",
+    "affiliation": "",
+    "region": "North America",
+    "country": "United States of America",
+    "city": "Aurora",
+    "state": "Colorado",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_059",
+    "name": "Bumrungrad International Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "state": "",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant",
+      "Orthopedics"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_060",
+    "name": "Apollo Hospitals (Chennai)",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "India",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_061",
+    "name": "Fudan University Shanghai Cancer Center",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "China",
+    "city": "Shanghai",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Radiation-Oncology",
+      "Clinical-Trial"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_062",
+    "name": "National University Hospital Singapore",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Singapore",
+    "city": "Singapore",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_063",
+    "name": "King's College Hospital London",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "city": "London",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Liver",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_064",
+    "name": "Addenbrooke's Hospital - Cambridge",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "city": "Cambridge",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_065",
+    "name": "Churchill Hospital Oxford",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "city": "Oxford",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Renal"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_066",
+    "name": "The Royal Marsden Hospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "city": "London",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_067",
+    "name": "Institut Gustave Roussy",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "France",
+    "city": "Villejuif",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_068",
+    "name": "Universitätsklinikum Frankfurt",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_069",
+    "name": "Universitätsklinikum Köln",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Cologne",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_070",
+    "name": "Universitätsklinikum Düsseldorf",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Düsseldorf",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_071",
+    "name": "Osaka University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Osaka",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_072",
+    "name": "Kyoto University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Kyoto",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "iPS-Cell-Research"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_073",
+    "name": "National Cancer Center Korea",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "South Korea",
+    "city": "Goyang",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cancer-Research",
+      "Clinical-Trial"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_074",
+    "name": "Taipei Veterans General Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Taiwan",
+    "city": "Taipei",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_075",
+    "name": "Chang Gung Memorial Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Taiwan",
+    "city": "Taoyuan",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_076",
+    "name": "Royal Melbourne Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Australia",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "specialty_focus": [
+      "Trauma",
+      "Oncology",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_077",
+    "name": "Westmead Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Australia",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Infectious-Disease"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_078",
+    "name": "Princess Alexandra Hospital Brisbane",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Australia",
+    "city": "Brisbane",
+    "state": "Queensland",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_079",
+    "name": "King Faisal Specialist Hospital Riyadh",
+    "affiliation": "",
+    "region": "Middle East",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiac-Surgery"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_080",
+    "name": "Cleveland Clinic Abu Dhabi",
+    "affiliation": "",
+    "region": "Middle East",
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "state": "",
+    "specialty_focus": [
+      "Cardiac-Surgery",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk",
+      "Concierge-Medicine"
+    ]
+  },
+  {
+    "id": "hosp_top_081",
+    "name": "Clínica Alemana Santiago",
+    "affiliation": "",
+    "region": "South America",
+    "country": "Chile",
+    "city": "Santiago",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cardiac-Surgery",
+      "Orthopedics"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_082",
+    "name": "Hospital Sírio-Libanês São Paulo",
+    "affiliation": "",
+    "region": "South America",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_083",
+    "name": "Hospital Moinhos de Vento",
+    "affiliation": "",
+    "region": "South America",
+    "country": "Brazil",
+    "city": "Porto Alegre",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Cardiology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_084",
+    "name": "Hospital Alemán Buenos Aires",
+    "affiliation": "",
+    "region": "South America",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Cardiology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_085",
+    "name": "Groote Schuur Hospital",
+    "affiliation": "",
+    "region": "Africa",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Cardiac-Surgery",
+      "Oncology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_086",
+    "name": "Chris Hani Baragwanath Hospital",
+    "affiliation": "",
+    "region": "Africa",
+    "country": "South Africa",
+    "city": "Johannesburg",
+    "state": "",
+    "specialty_focus": [
+      "Trauma",
+      "Oncology",
+      "Transplant"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_087",
+    "name": "Universitätsklinikum Freiburg",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Freiburg",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_088",
+    "name": "Universitätsklinikum Tübingen",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Germany",
+    "city": "Tübingen",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_089",
+    "name": "Hôpital Universitaire de Genève",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_090",
+    "name": "Ospedale San Raffaele Milano",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Italy",
+    "city": "Milan",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Gene-Therapy",
+      "Oncology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_091",
+    "name": "Hospital Clínic de Barcelona",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Spain",
+    "city": "Barcelona",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Hepatology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_092",
+    "name": "Radboudumc Nijmegen",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "The Netherlands",
+    "city": "Nijmegen",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_093",
+    "name": "Universitätsspital Bern",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Switzerland",
+    "city": "Bern",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_094",
+    "name": "Sahlgrenska Universitetssjukhuset",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_095",
+    "name": "Universitetssykehuset Nord-Norge",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Norway",
+    "city": "Tromsø",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Neurology",
+      "Arctic-Medicine"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_096",
+    "name": "Turku University Hospital",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Finland",
+    "city": "Turku",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_097",
+    "name": "Hospital Universitario 12 de Octubre",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Spain",
+    "city": "Madrid",
+    "state": "",
+    "specialty_focus": [
+      "Transplant",
+      "Oncology",
+      "Trauma"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_098",
+    "name": "Azienda Ospedaliero-Universitaria Bologna",
+    "affiliation": "",
+    "region": "Europe",
+    "country": "Italy",
+    "city": "Bologna",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_099",
+    "name": "Nagoya University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Nagoya",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  },
+  {
+    "id": "hosp_top_100",
+    "name": "Chiba University Hospital",
+    "affiliation": "",
+    "region": "Asia-Pacific",
+    "country": "Japan",
+    "city": "Chiba",
+    "state": "",
+    "specialty_focus": [
+      "Oncology",
+      "Transplant",
+      "Neurology"
+    ],
+    "value_add_services": [
+      "International-Patient-Desk"
+    ]
+  }
+]

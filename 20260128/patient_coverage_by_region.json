@@ -1,0 +1,19 @@
+[
+  {"id": "cov_us_001", "region": "NA", "country": "United States", "coverage_count": 85000, "source_description": "Aggregate de-identified coverage; US healthcare reach (illustrative). No PII."},
+  {"id": "cov_uk_001", "region": "Commonwealth", "country": "United Kingdom", "coverage_count": 35000, "source_description": "Aggregate de-identified coverage; UK/NHS reach (illustrative). No PII."},
+  {"id": "cov_ca_001", "region": "Commonwealth", "country": "Canada", "coverage_count": 20000, "source_description": "Aggregate de-identified coverage; Canada reach (illustrative). No PII."},
+  {"id": "cov_au_001", "region": "Commonwealth", "country": "Australia", "coverage_count": 15000, "source_description": "Aggregate de-identified coverage; Australia reach (illustrative). No PII."},
+  {"id": "cov_in_001", "region": "Commonwealth", "country": "India", "coverage_count": 12000, "source_description": "Aggregate de-identified coverage; India reach (illustrative). No PII."},
+  {"id": "cov_de_001", "region": "EU", "country": "Germany", "coverage_count": 28000, "source_description": "Aggregate de-identified coverage; Germany/EU reach (illustrative). No PII."},
+  {"id": "cov_fr_001", "region": "EU", "country": "France", "coverage_count": 22000, "source_description": "Aggregate de-identified coverage; France/EU reach (illustrative). No PII."},
+  {"id": "cov_nl_001", "region": "EU", "country": "Netherlands", "coverage_count": 8000, "source_description": "Aggregate de-identified coverage; EU reach (illustrative). No PII."},
+  {"id": "cov_es_001", "region": "EU", "country": "Spain", "coverage_count": 9000, "source_description": "Aggregate de-identified coverage; EU reach (illustrative). No PII."},
+  {"id": "cov_it_001", "region": "EU", "country": "Italy", "coverage_count": 10000, "source_description": "Aggregate de-identified coverage; EU reach (illustrative). No PII."},
+  {"id": "cov_eu_001", "region": "EU", "country": "EU_Other", "coverage_count": 15000, "source_description": "Aggregate de-identified coverage; EU other (illustrative). No PII."},
+  {"id": "cov_cn_001", "region": "Asia-Pacific", "country": "China_Mainland", "coverage_count": 45000, "source_description": "Aggregate de-identified coverage; Mainland China reach (illustrative). No PII."},
+  {"id": "cov_hk_001", "region": "Asia-Pacific", "country": "Hong_Kong", "coverage_count": 8000, "source_description": "Aggregate de-identified coverage; Hong Kong reach (illustrative). No PII."},
+  {"id": "cov_sg_001", "region": "Asia-Pacific", "country": "Singapore", "coverage_count": 7000, "source_description": "Aggregate de-identified coverage; Singapore reach (illustrative). No PII."},
+  {"id": "cov_tw_001", "region": "Asia-Pacific", "country": "Taiwan", "coverage_count": 5000, "source_description": "Aggregate de-identified coverage; Taiwan reach (illustrative). No PII."},
+  {"id": "cov_jp_001", "region": "Asia-Pacific", "country": "Japan", "coverage_count": 12000, "source_description": "Aggregate de-identified coverage; Japan reach (illustrative). No PII."},
+  {"id": "cov_kr_001", "region": "Asia-Pacific", "country": "South_Korea", "coverage_count": 8000, "source_description": "Aggregate de-identified coverage; South Korea reach (illustrative). No PII."}
+]

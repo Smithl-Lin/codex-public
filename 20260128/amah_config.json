@@ -1,0 +1,45 @@
+{
+  "alignment_logic": {
+    "precision_lock_threshold": 0.79,
+    "manual_audit_threshold": 1.35
+  },
+  "trinity_audit_gate": {
+    "variance_tolerance": "DYNAMIC",
+    "variance_limit_numeric": 0.005,
+    "consensus_models": ["GPT-4o", "Gemini-3.0", "Claude-4.5"]
+  },
+  "centurion_injection": {
+    "enabled": false,
+    "timeout_seconds": 5
+  },
+  "l2_5_authority": {
+    "use_medical_reasoner_first": true,
+    "fallback_to_staircase": true
+  },
+  "orchestrator_audit": {
+    "path_truncation_on_high_entropy": true,
+    "variance_limit_for_truncation": 0.005,
+    "d_threshold_for_truncation": 0.79,
+    "compliance_score_min": 0.5,
+    "reasoning_cost_max": 1.0,
+    "force_desensitize_on_fail": false
+  },
+  "protocol_audit": {
+    "enabled": true,
+    "log_path": "sovereignty_audit.log"
+  },
+  "concurrency_guard": {
+    "max_concurrent_bridge_calls": 8,
+    "timeout_seconds": 30,
+    "enabled": true
+  },
+  "hard_anchor_boolean_interception": {
+    "atomic_technical_terms": [
+      "iPS", "BCI", "DBS", "KRAS G12C", "G12C", "CAR-T", "ADC",
+      "干细胞", "脑机接口", "Neural Interface", "Neuralink",
+      "Dopaminergic", "Subthalamic", "mRNA Vaccine", "stem cell"
+    ],
+    "retrieval_pool_size_n": 100,
+    "downgrade_firewall": true
+  }
+}
