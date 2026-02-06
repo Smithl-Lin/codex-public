@@ -3,3 +3,11 @@
 20260128/medical_db/*.sqlite3
 20260128/medical_db/
 
+
+# local chroma/sqlite db
+**/chroma.sqlite3
+**/*.sqlite3
+**/*.sqlite
+20260128/medical_db/
+20260128/amah_vector_db/
+
