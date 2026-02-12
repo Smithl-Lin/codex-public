@@ -41,5 +41,17 @@
     ],
     "retrieval_pool_size_n": 100,
     "downgrade_firewall": true
+  },
+  "compliance_policies": {
+    "region_requirements": {
+      "US": ["HIPAA", "CONSENT_RECORDED", "DATA_RESIDENCY_US"],
+      "China": ["PIPL", "CONSENT_RECORDED", "DATA_RESIDENCY_CN"],
+      "EU": ["GDPR", "CONSENT_RECORDED", "DATA_RESIDENCY_EU"],
+      "UK": ["UK_GDPR", "CONSENT_RECORDED", "DATA_RESIDENCY_UK"],
+      "California": ["CCPA", "CONSENT_RECORDED"],
+      "NA": ["CONSENT_RECORDED"],
+      "Asia-Pacific": ["APAC_PRIVACY", "CONSENT_RECORDED"],
+      "Default": ["CONSENT_RECORDED"]
+    }
   }
 }

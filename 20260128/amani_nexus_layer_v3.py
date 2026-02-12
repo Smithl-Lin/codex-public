@@ -7,6 +7,8 @@
 # ------------------------------------------------------------------------------
 
 import hashlib
+import json
+import os
 from typing import Any, Dict, List, Optional, Tuple
 
 # ------------------------------------------------------------------------------
@@ -132,6 +134,8 @@ class ComplianceGate:
 
     # Region -> list of required compliance tags
     REGIONAL_REQUIREMENTS = {
+        "US": ["HIPAA", "CONSENT_RECORDED", "DATA_RESIDENCY_US"],
+        "China": ["PIPL", "CONSENT_RECORDED", "DATA_RESIDENCY_CN"],
         "EU": ["GDPR", "CONSENT_RECORDED", "DATA_RESIDENCY_EU"],
         "UK": ["UK_GDPR", "CONSENT_RECORDED", "DATA_RESIDENCY_UK"],
         "California": ["CCPA", "CONSENT_RECORDED"],
@@ -144,6 +148,25 @@ class ComplianceGate:
         self._strict_mode = strict_mode
         self._consent_store: Dict[str, bool] = {}
         self._region_override: Optional[str] = None
+        self._regional_requirements = self._load_regional_requirements()
+
+    def _load_regional_requirements(self) -> Dict[str, List[str]]:
+        """Load optional region requirements from amah_config.json with safe fallback."""
+        cfg_path = os.path.join(os.path.dirname(__file__), "amah_config.json")
+        try:
+            if os.path.isfile(cfg_path):
+                with open(cfg_path, "r", encoding="utf-8") as f:
+                    cfg = json.load(f)
+                region_requirements = (cfg.get("compliance_policies") or {}).get("region_requirements") or {}
+                if isinstance(region_requirements, dict) and region_requirements:
+                    merged = dict(self.REGIONAL_REQUIREMENTS)
+                    for k, v in region_requirements.items():
+                        if isinstance(v, list):
+                            merged[k] = list(v)
+                    return merged
+        except Exception:
+            pass
+        return dict(self.REGIONAL_REQUIREMENTS)
 
     def set_region_override(self, region: Optional[str]) -> None:
         """Override region for compliance checks (e.g. request context)."""
@@ -152,8 +175,8 @@ class ComplianceGate:
     def require_region(self, region: str) -> List[str]:
         """Return list of required compliance tags for the given region."""
         return list(
-            self.REGIONAL_REQUIREMENTS.get(
-                region, self.REGIONAL_REQUIREMENTS["Default"]
+            self._regional_requirements.get(
+                region, self._regional_requirements["Default"]
             )
         )
 
@@ -174,6 +197,10 @@ class ComplianceGate:
             return True, "Data residency satisfied: same region."
         if region in ("EU", "UK") and data_region not in ("EU", "UK", "EEA"):
             return False, "Data residency violation: EU/UK data must not leave designated area."
+        if region == "US" and data_region not in ("US", "NA", "United States"):
+            return False, "Data residency violation: US policy requires in-region processing."
+        if region == "China" and data_region not in ("China", "CN"):
+            return False, "Data residency violation: PIPL policy requires in-country processing."
         if region == "Asia-Pacific" and data_region not in ("Asia-Pacific", "APAC"):
             return False, "Data residency violation: APAC policy requires in-region processing."
         return True, "Data residency check passed under current policy."
@@ -194,8 +221,8 @@ class ComplianceGate:
         satisfied = []
         violated = []
 
-        if "CONSENT_RECORDED" in required and subject_id:
-            if self.has_consent(subject_id, effective_region):
+        if "CONSENT_RECORDED" in required:
+            if subject_id and self.has_consent(subject_id, effective_region):
                 satisfied.append("CONSENT_RECORDED")
             else:
                 violated.append("CONSENT_RECORDED")
@@ -210,7 +237,7 @@ class ComplianceGate:
                 violated.append(dr_tag)
 
         for tag in required:
-            if tag in ("GDPR", "UK_GDPR", "CCPA", "APAC_PRIVACY") and tag not in satisfied and tag not in violated:
+            if tag in ("HIPAA", "PIPL", "GDPR", "UK_GDPR", "CCPA", "APAC_PRIVACY") and tag not in satisfied and tag not in violated:
                 satisfied.append(tag)
 
         if violated and self._strict_mode:
