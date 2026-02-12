@@ -4,11 +4,14 @@ import numpy as np
 import re
 import json
 import time
+import logging
 from openai import AsyncOpenAI
 from anthropic import AsyncAnthropic
 import vertexai
 from vertexai.generative_models import GenerativeModel
 from google.oauth2 import service_account
+
+logger = logging.getLogger(__name__)
 
 class AMAHWeightedEngine:
     def __init__(self):
@@ -33,13 +36,21 @@ class AMAHWeightedEngine:
 
     def clip_value(self, val):
         try: return max(0.0, min(1.0, float(val)))
-        except: return 0.5
+        except Exception:
+            return 0.5
 
     async def get_model_logic(self, model_type, context):
         """V8.0: 引入临床全路径审计与‘一票否决’逻辑"""
+        try:
+            from privacy_guard import redact_text
+            safe_context, redaction_stats = redact_text(str(context))
+            if any(redaction_stats.values()):
+                logger.info("Outbound payload redacted for %s: %s", model_type, redaction_stats)
+        except Exception:
+            safe_context = context
         prompt = f"""
         [AMAH STRATEGIC AUDIT - PRIORITY: ACCURACY]
-        Task: {context}
+        Task: {safe_context}
         
         You are a senior medical expert. Audit the asset redistribution following this STRICT sequence:
         1. DIAGNOSIS MATCH: Does the asset align with the primary diagnosis?
@@ -66,7 +77,8 @@ class AMAHWeightedEngine:
                     model="gpt-4o", messages=[{"role": "user", "content": prompt}]
                 )
                 return self.parse_json(res.choices[0].message.content)
-        except:
+        except Exception as e:
+            logger.warning("Model logic call failed for %s: %s", model_type, e)
             return {"score": None, "certainty": 0, "pathway": "error", "reasoning": "Connection lost"}
 
     def parse_json(self, text):
@@ -75,7 +87,8 @@ class AMAHWeightedEngine:
             data = json.loads(match.group().replace("'", '"'))
             data['score'] = self.clip_value(data.get('score', 0.5))
             return data
-        except:
+        except Exception as e:
+            logger.warning("Model output parse failed: %s", e)
             return {"score": None, "certainty": 0, "pathway": "parse_fail", "reasoning": "Output Error"}
 
     async def calculate_weighted_consensus(self, results_dict):

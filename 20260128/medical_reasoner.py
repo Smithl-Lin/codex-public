@@ -8,7 +8,11 @@ BatchProcessQueue: concurrency limit + progress callback for L4 feedback.
 import os
 import threading
 import time
+import logging
 from typing import Any, Callable, Dict, List, Optional
+
+logger = logging.getLogger(__name__)
+
 
 # ------------------------------------------------------------------------------
 # A.M.A.N.I. System Prompt for MedGemma — AGID-aware, L3 resource matching
@@ -65,7 +69,8 @@ class MedicalReasoner:
             out = self._call_endpoint(input_text, l1_context or {})
             out.setdefault("resource_matching_suggestion", _default_resource_suggestion(out))
             return out
-        except Exception:
+        except Exception as e:
+            logger.warning("MedGemma endpoint failed, fallback to stub: %s", e)
             return self._stub_reason(input_text, l1_context or {})
 
     def _stub_reason(self, input_text: str, l1_context: Dict[str, Any]) -> Dict[str, Any]:
@@ -101,8 +106,15 @@ class MedicalReasoner:
         """Call MedGemma endpoint (HTTPS). Sends A.M.A.N.I. system prompt; expects resource_matching_suggestion."""
         import urllib.request
         import json
+        try:
+            from privacy_guard import redact_text
+            safe_text, redaction_stats = redact_text(input_text)
+            if any(redaction_stats.values()):
+                logger.info("Outbound payload redacted for MedGemma: %s", redaction_stats)
+        except Exception:
+            safe_text = input_text
         payload = {
-            "input_text": input_text[:2000],
+            "input_text": safe_text[:2000],
             "l1_context": l1_context,
             "system_prompt": self.get_system_prompt(),
         }
@@ -195,8 +207,8 @@ def _load_orchestrator_config(config_path: Optional[str] = None) -> Dict[str, An
         if os.path.isfile(path):
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f).get("orchestrator_audit", {})
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning("Failed to load orchestrator config from %s: %s", path, e)
     return {}
 
 
@@ -263,8 +275,8 @@ class BatchProcessQueue:
         if self._progress_callback:
             try:
                 self._progress_callback(job_id, progress, message)
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning("Progress callback failed for %s: %s", job_id, e)
 
     def process_all(self) -> List[Dict[str, Any]]:
         """

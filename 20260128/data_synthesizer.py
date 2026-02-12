@@ -1,10 +1,13 @@
 import os
 import json
 import time
+import logging
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from google.api_core.exceptions import ResourceExhausted, InternalServerError, ServiceUnavailable
 from tqdm import tqdm
+
+logger = logging.getLogger(__name__)
 
 # ================= 配置区 =================
 try:
@@ -55,7 +58,16 @@ def process_case_with_retry(model, case_data):
     abstract = case_data.get('abstract', '')
     if len(abstract) < 50: return None
 
-    full_prompt = f"{SYSTEM_PROMPT}\n\nCASE ABSTRACT:\n{abstract}"
+    safe_abstract = abstract
+    try:
+        from privacy_guard import redact_text
+        safe_abstract, redaction_stats = redact_text(abstract)
+        if any(redaction_stats.values()):
+            logger.info("Outbound payload redacted for data_synthesizer: %s", redaction_stats)
+    except Exception:
+        safe_abstract = abstract
+
+    full_prompt = f"{SYSTEM_PROMPT}\n\nCASE ABSTRACT:\n{safe_abstract}"
     
     max_retries = 5
     retry_count = 0
