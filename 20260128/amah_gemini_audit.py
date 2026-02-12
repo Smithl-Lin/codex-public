@@ -22,7 +22,8 @@ def run_med_gemini_demo():
     # S1 (GPT): 0.95, S2 (Gemini): 0.92, S3 (Claude): 0.75
     # S3 mimics a model disagreement (Variance trigger)
     scores = np.array([0.95, 0.92, 0.75])
-    model_names = config['trinity_audit_gate']['consensus_models']
+    gate_cfg = config.get('trinity_audit_gate', {})
+    model_names = gate_cfg.get('consensus_models', ["GPT-4o", "Gemini-3.0", "Claude-4.5"])
     
     # Calculate weighted variance (V)
     # Formula: V = sum(Wi * (Si - mean(S))^2)
@@ -38,12 +39,13 @@ def run_med_gemini_demo():
     # Logic for Recursive Fallback (Patent 7)
     if variance > threshold:
         print("\n⚠️ [INTERCEPT] Variance exceeds threshold! Triggering Patent 7 Fallback.")
-        fallback_path = config['trinity_audit_gate']['fallback_path']
+        fallback_path = gate_cfg.get('fallback_path', ["Gold Standard", "Recovery"])
         print(f"Recursive Path: {fallback_path[0]} -> {fallback_path[1]} (CATEGORY SWAP)")
         print("Status: AUTOMATION SUSPENDED. Routing to Expert Team (Smith Lin).")
     else:
         print("\n✅ [LOCKED] High Consensus. D-Value Alignment verified.")
-        print(f"Commercial Shadow Billing Activated: ${config['alignment_logic']['shadow_billing_unit_usd']:,}")
+        billing_unit = config.get('alignment_logic', {}).get('shadow_billing_unit_usd', 100000)
+        print(f"Commercial Shadow Billing Activated: ${billing_unit:,}")
     
     print("="*70)
 
