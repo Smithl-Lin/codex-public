@@ -18,7 +18,8 @@ class GlobalNexus:
     """
 
     def __init__(self):
-        pass
+        # Explicitly mark service readiness for observability and health checks.
+        self._initialized_at = datetime.utcnow().isoformat() + "Z"
 
     def dispatch(self, enriched_snapshot: Dict[str, Any]) -> Dict[str, Any]:
         """

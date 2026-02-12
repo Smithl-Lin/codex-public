@@ -12,6 +12,7 @@
 
 import math
 import hashlib
+import logging
 from typing import Any, Dict, List, Optional, Tuple
 
 try:
@@ -39,6 +40,9 @@ except Exception:
     class StrategicInterceptError(Exception):
         """Raised when precision or entropy gate fails."""
         pass
+
+
+logger = logging.getLogger(__name__)
 
 
 # ------------------------------------------------------------------------------
@@ -179,8 +183,8 @@ class StaircaseMappingLLM:
                         "desensitized": audit.get("desensitized"),
                     },
                 }
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("L2.5 reasoner/orchestrator failed, fallback to local strategy: %s", e)
         steps = self.generate(input_text, l1_context)
         return {
             "layer": "L2_2_5_Orchestrator",
@@ -471,8 +475,8 @@ class TrinityBridge:
                 v = cfg.get("trinity_audit_gate", {}).get("variance_limit_numeric")
                 if v is not None:
                     variance_limit = float(v)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Failed to load trinity_audit_gate config, using default variance_limit=0.005: %s", e)
         self._l1 = l1_sentinel or ECNNSentinel(variance_limit=variance_limit)
         self._l2 = l2_llm or StaircaseMappingLLM()
         chroma = chromadb_path or os.path.join(base, "amah_vector_db")
@@ -505,8 +509,8 @@ class TrinityBridge:
                     _cent_cfg = _c.get("centurion_injection") or {}
                     _cent_enabled = _cent_cfg.get("enabled", False)
                     _cent_timeout = float(_cent_cfg.get("timeout_seconds", 5))
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning("Failed to load centurion_injection config, using defaults: %s", e)
             if _cent_enabled:
                 import threading as _th
                 _result = [None]
@@ -527,8 +531,8 @@ class TrinityBridge:
         try:
             from amani_cultural_equalizer_l2 import equalize_main_complaint
             text_for_l2 = equalize_main_complaint(input_text, locale_hint=None, append_canonical_context=True)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Cultural equalizer failed, using raw input: %s", e)
         l2_path = self._l2.semantic_path(text_for_l2, l1_ctx)
         # Hard Anchor Boolean Interception: atomic technical terms (iPS, BCI, KRAS G12C) and N=100 re-rank
         import os as _os
@@ -597,8 +601,8 @@ class TrinityBridge:
                 _guard_enabled = _guard_cfg.get("enabled", False)
                 _guard_max = int(_guard_cfg.get("max_concurrent_bridge_calls", 8))
                 _guard_timeout = float(_guard_cfg.get("timeout_seconds", 30))
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Failed to load protocol_audit/concurrency_guard config, using defaults: %s", e)
         _sem = _get_bridge_semaphore(_guard_max)
         _acquired = False
         if _guard_enabled and _sem is not None:

@@ -3,6 +3,7 @@
 # App V4.0 — 统一走 amani_core_v4 配置与 AGID，0.79 阈值闭环
 
 import pandas as pd
+import logging
 
 # 闭环：阈值与 AGID 仅来自 amani_core_v4 与 amah_config.json
 from amani_core_v4 import (
@@ -25,6 +26,8 @@ try:
     _billing = AMAHBillingEngine()
 except Exception:
     _billing = None
+
+logger = logging.getLogger(__name__)
 
 
 def _bridge_result_to_routing(result, query_text: str, default_threshold: float):
@@ -71,8 +74,8 @@ def get_strategic_routing(query):
         from amani_nexus_layer_v3 import get_default_router
         base = os.path.dirname(os.path.abspath(__file__))
         get_default_router(os.path.join(base, "physical_node_registry.json"))
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning("Failed to preload default Nexus router: %s", e)
     try:
         from amani_trinity_bridge import TrinityBridge
         bridge = TrinityBridge()

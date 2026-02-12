@@ -21,3 +21,12 @@
 | P0-CFG-001 | Repair config key mismatch in Gemini audit script | Code Fixer | completed | none | Script runs without KeyError using current config |
 | P0-COMP-001 | Add HIPAA/PIPL policy branches and enforce route-level compliance | Code Fixer + Compliance Critic | completed | none | Region policy test cases pass for US/CN/EU |
 | P0-OBS-001 | Replace silent pass in critical paths with observable failure signals | Code Fixer + Compliance Critic | completed | none | Key path exceptions produce structured error evidence |
+
+---
+
+## Vision Remediation Cycle 2026-02-12
+| task_id | title | owner_role | status | dependency | acceptance |
+|---|---|---|---|---|---|
+| V-HIGH-001 | Enforce outbound PHI/PII redaction for uncovered external audit/diagnostic scripts | Code Fixer + Security Auditor | completed | none | `audit_agent.py` / `debug_api.py` / `forensic_debug.py` no longer send raw case text directly |
+| V-MED-001 | Replace critical silent `pass` in orchestration paths with observable warnings | Code Fixer + Compliance Critic | completed | V-HIGH-001 | `amani_trinity_bridge.py` and `amah_centurion_injection.py` emit warnings on fallback/error branches |
+| V-LOW-001 | Reduce low-risk silent fallback in config preload paths | Code Fixer | completed | V-MED-001 | `app.py` / `app_v4.py` / `amani_nexus_layer_v3.py` log preload/config failures instead of silent ignore |

@@ -9,7 +9,10 @@
 import hashlib
 import json
 import os
+import logging
 from typing import Any, Dict, List, Optional, Tuple
+
+logger = logging.getLogger(__name__)
 
 # ------------------------------------------------------------------------------
 # AGID canonical format (aligned with Sovereign Protocols)
@@ -164,8 +167,8 @@ class ComplianceGate:
                         if isinstance(v, list):
                             merged[k] = list(v)
                     return merged
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Failed to load region_requirements from config, using defaults: %s", e)
         return dict(self.REGIONAL_REQUIREMENTS)
 
     def set_region_override(self, region: Optional[str]) -> None:

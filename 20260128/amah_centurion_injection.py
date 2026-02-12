@@ -9,8 +9,11 @@ import time
 import os
 import threading
 import hashlib
+import logging
 from datetime import datetime
 from typing import Dict, List, Any, Optional
+
+logger = logging.getLogger(__name__)
 
 # ------------------------------------------------------------------------------
 # AGID and D ≤ 0.79 gate (aligned with amani_core_v4)
@@ -287,8 +290,8 @@ class Lifecycle_Pulse_Monitor:
         try:
             with open(self._index_path, "w", encoding="utf-8") as f:
                 json.dump(index, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Lifecycle_Pulse_Monitor failed to save index: %s", e)
 
     def _append_changelog(self, entries: List[Dict[str, Any]]) -> None:
         try:
@@ -299,8 +302,8 @@ class Lifecycle_Pulse_Monitor:
             existing.extend(entries)
             with open(self._changelog_path, "w", encoding="utf-8") as f:
                 json.dump(existing[-self.MAX_CHANGELOG_ENTRIES :], f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Lifecycle_Pulse_Monitor failed to append changelog: %s", e)
 
     def run_cycle(self) -> Dict[str, Any]:
         """Run one scan cycle: diff against previous index, record additions, deletions, status changes."""
@@ -378,8 +381,8 @@ class Lifecycle_Pulse_Monitor:
         while not self._stop.wait(timeout=self._interval):
             try:
                 self.run_cycle()
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning("Lifecycle_Pulse_Monitor background cycle failed: %s", e)
 
     def start_background(self) -> None:
         """Start 12-hour background scanner (daemon thread)."""

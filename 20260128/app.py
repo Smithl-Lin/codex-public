@@ -5,6 +5,7 @@
 import streamlit as st
 import chromadb
 import pandas as pd
+import logging
 
 # V4.0: 挂载 billing_engine 与 D ≤ 0.79 联动
 try:
@@ -13,6 +14,8 @@ try:
 except Exception:
     _billing = None
     D_PRECISION_THRESHOLD = 0.79
+
+logger = logging.getLogger(__name__)
 
 st.set_page_config(page_title="Mayo AI Asset Hub | Smith Lin", layout="wide")
 st.markdown("""
@@ -71,8 +74,8 @@ def get_strategic_routing(query):
         from amani_nexus_layer_v3 import get_default_router
         base = os.path.dirname(os.path.abspath(__file__))
         get_default_router(os.path.join(base, "physical_node_registry.json"))
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning("Failed to preload default Nexus router: %s", e)
     try:
         from amani_trinity_bridge import TrinityBridge
         bridge = TrinityBridge()
