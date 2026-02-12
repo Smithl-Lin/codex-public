@@ -11,3 +11,9 @@ All project tasks follow `law1` by default:
 All completed tasks also follow `law2`:
 - `LAW2_WORKLOG_POLICY.md`
 - Worklog output folder: `20260211/`
+
+## Canonical QA Command
+
+Use this write-free deterministic check as the baseline regression entry:
+
+`python 20260128/qa_deterministic_check.py`

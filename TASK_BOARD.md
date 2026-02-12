@@ -2,11 +2,11 @@
 
 | task_id | title | owner_role | status | dependency | acceptance |
 |---|---|---|---|---|---|
-| T-001 | Make validation write-free and deterministic | Code Fixer + QA Engineer | pending | none | Syntax/test checks pass without `.pyc` write dependency |
-| T-002 | Normalize artifact-like file names | Code Fixer | pending | none | Stray naming artifacts removed/renamed with reference safety |
-| T-003 | Clarify `merged_data.json.py` ownership | Code Fixer | pending | none | Purpose explicit and naming unambiguous |
-| T-004 | Normalize special-glyph reference file naming | Code Fixer | pending | none | Cross-platform safe filename and location |
-| T-005 | Define canonical regression command | QA Engineer | pending | T-001 | One repeatable QA command set documented and runnable |
+| T-001 | Make validation write-free and deterministic | Code Fixer + QA Engineer | completed | none | Syntax/test checks pass without `.pyc` write dependency |
+| T-002 | Normalize artifact-like file names | Code Fixer | completed | none | Stray naming artifacts removed/renamed with reference safety |
+| T-003 | Clarify `merged_data.json.py` ownership | Code Fixer | completed | none | Purpose explicit and naming unambiguous |
+| T-004 | Normalize special-glyph reference file naming | Code Fixer | completed | none | Cross-platform safe filename and location |
+| T-005 | Define canonical regression command | QA Engineer | completed | T-001 | One repeatable QA command set documented and runnable |
 
 ## Current Phase
 - Phase 1 complete

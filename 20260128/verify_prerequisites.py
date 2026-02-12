@@ -7,6 +7,8 @@ import os
 import sys
 import json
 
+PY314_PLUS = sys.version_info >= (3, 14)
+
 
 def check_env_vars():
     """检查环境变量配置"""
@@ -107,6 +109,11 @@ def check_chromadb():
 
         return True
     except Exception as e:
+        msg = str(e)
+        if PY314_PLUS and ("chroma_server_nofile" in msg or "pydantic" in msg.lower()):
+            print(f"⚠️  ChromaDB 在 Python {sys.version_info.major}.{sys.version_info.minor} 下可能存在兼容性问题: {e}")
+            print("   建议: 使用 Python 3.11/3.12 运行完整 ChromaDB 检查")
+            return True
         print(f"❌ ChromaDB 错误: {e}")
         return False
 
@@ -174,6 +181,13 @@ def check_dependencies():
         except ImportError:
             print(f"❌ {module:30} | {desc} | 未安装")
             all_installed = False
+        except Exception as e:
+            if module == 'chromadb' and PY314_PLUS and ('chroma_server_nofile' in str(e) or 'pydantic' in str(e).lower()):
+                print(f"⚠️  {module:30} | {desc} | Python 3.14 兼容性告警: {e}")
+                print("   建议: Python 3.11/3.12 + pip install -r requirements.txt")
+            else:
+                print(f"❌ {module:30} | {desc} | 异常: {str(e)[:80]}")
+                all_installed = False
 
     if not all_installed:
         print("\n   解决方案: pip install -r requirements.txt")

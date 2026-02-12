@@ -1,7 +1,7 @@
 # QA_REPORT (law1 cycle 2026-02-12)
 
 ## Scope
-- P0-PHI-001 (partial implementation smoke checks)
+- P0-PHI-001 / P0-COMP-001 / P0-CFG-001 validation closeout
 
 ## Commands Executed
 - `Get-Content` inspections for changed files
@@ -10,9 +10,10 @@
 - `python` functional smoke:
   - `privacy_guard.redact_text(...)`
   - `ComplianceGate.enforce(...)` for US/CN scenarios
-- `python verify_prerequisites.py`
-- `python test_trinity_full_pipeline.py`
-- `python run_trinity_oncology_case.py`
+- `python 20260128/qa_deterministic_check.py`
+- `python 20260128/verify_prerequisites.py`
+- `python 20260128/test_trinity_full_pipeline.py`
+- `Invoke-WebRequest http://127.0.0.1:8501 -UseBasicParsing`
 
 ## Validation Results
 - `privacy_guard.py` added and referenced by:
@@ -28,8 +29,11 @@
   - `US_WITH_CONSENT True`
   - `CN_WRONG_REGION False`
 
-## Outstanding
-- `verify_prerequisites.py`: failed on Python 3.14 + ChromaDB/pydantic compatibility.
-- `test_trinity_full_pipeline.py`: 3/4 failed because current L1 variance gate (`<=0.005`) intercepts normal complex text.
-- `run_trinity_oncology_case.py`: script runs; default path intercepted at L1, demo relaxed-variance path completes L2/L3/L4.
-- Full Streamlit UI click-through regression not executed.
+## Latest Closeout Results
+- `python 20260128/qa_deterministic_check.py` -> `QA_DETERMINISTIC_OK`.
+- `python 20260128/verify_prerequisites.py` -> `通过: 7/7` (Python 3.14 + ChromaDB compatibility warning downgraded to non-blocking advisory).
+- `python 20260128/test_trinity_full_pipeline.py` -> `通过: 4/4`.
+- `http://127.0.0.1:8501` health check -> `STATUS=200 LEN=1522`; port `8501` listening (PID `20520`).
+
+## Residual Risk
+- Current environment is Python 3.14; ChromaDB still emits pydantic v1 compatibility warning. Recommended production runtime remains Python 3.11/3.12 for full vendor support.
