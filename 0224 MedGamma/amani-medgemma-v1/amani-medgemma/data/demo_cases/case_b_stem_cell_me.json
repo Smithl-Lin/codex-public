@@ -1,0 +1,66 @@
+{
+  "case_id": "AMANI-DEMO-B",
+  "title": "Middle Eastern Elderly Male Seeking Stem Cell Anti-Aging in Japan",
+  "language": "ar",
+  "patient_profile": {
+    "age": 68,
+    "sex": "Male",
+    "nationality": "Saudi Arabian",
+    "location": "Riyadh, Saudi Arabia",
+    "primary_concern": "Age-related functional decline, seeking regenerative medicine",
+    "health_status": {
+      "cardiovascular": "Stable CAD, post-CABG 2019, EF 55%",
+      "metabolic": "Type 2 Diabetes, HbA1c 7.2%, on Metformin + Empagliflozin",
+      "musculoskeletal": "Bilateral knee osteoarthritis, Grade III",
+      "cognitive": "MoCA 26/30, mild subjective memory complaints",
+      "renal": "eGFR 62 mL/min (CKD Stage 2)"
+    },
+    "prior_treatments": [
+      {"treatment": "PRP injection bilateral knees", "year": 2023, "response": "Minimal improvement"},
+      {"treatment": "Testosterone replacement therapy", "year": 2024, "response": "Moderate energy improvement"}
+    ],
+    "current_medications": ["Aspirin 81mg", "Atorvastatin 40mg", "Metformin 1000mg BID", "Empagliflozin 25mg"],
+    "patient_goals": "Comprehensive regenerative program: stem cell therapy for joint repair, cognitive enhancement, and overall vitality restoration",
+    "budget": "Family office managed, no financial constraint",
+    "travel_preference": "Japan (spouse interested in combining with medical tourism)"
+  },
+  "clinical_note_ar": "مريض ذكر يبلغ من العمر 68 عامًا من الرياض. يعاني من تراجع وظيفي مرتبط بالعمر. خضع لعملية تحويل مسار الشريان التاجي عام 2019. داء السكري من النوع الثاني مستقر. يرغب في العلاج بالخلايا الجذعية لإصلاح المفاصل والتجديد الشامل. يفضل اليابان كوجهة علاجية.",
+  "clinical_note_en": "68-year-old Saudi male with age-related functional decline. Post-CABG 2019, stable CAD. T2DM controlled. Bilateral knee OA Grade III. MoCA 26/30. Seeking comprehensive stem cell regenerative program including joint repair, cognitive support, and vitality restoration. Prefers Japan as treatment destination. Family office backing with no financial constraint.",
+  "search_intent": {
+    "primary": "Stem cell therapy for joint regeneration and anti-aging",
+    "secondary": "Comprehensive regenerative medicine program in Japan",
+    "geographic_preference": ["Japan"],
+    "urgency": "Moderate - elective wellness optimization"
+  },
+  "expected_agid_outputs": [
+    {
+      "agid": "AGID-JP-HELENE-001",
+      "resource_type": "Regenerative Medicine Center",
+      "title": "Helene Regenerative Medicine Clinic",
+      "institution": "Tokyo, Japan",
+      "program": "Comprehensive Stem Cell Rejuvenation Program (MSC-IV + PRP + Exosome)",
+      "certification": "Japan PMDA Regenerative Medicine Class II",
+      "duration_days": 14,
+      "estimated_cost_usd": 95000
+    },
+    {
+      "agid": "AGID-JP-KEIO-REGEN-002",
+      "resource_type": "Academic Medical Center",
+      "title": "Keio University Hospital - Department of Regenerative Medicine",
+      "institution": "Tokyo, Japan",
+      "program": "Autologous Adipose-Derived MSC for Knee Osteoarthritis (Clinical Study)",
+      "pi": "Dr. Hideyuki Okano",
+      "phase": "Clinical Study (Approved under PMDA framework)",
+      "estimated_cost_usd": 45000
+    }
+  ],
+  "expected_tdls": {
+    "stage_1": "Pre-screening: cardiac clearance + renal function assessment",
+    "stage_2": "Travel coordination: Riyadh → Tokyo (medical visa + interpreter)",
+    "stage_3": "Keio University MSC treatment for bilateral knees",
+    "stage_4": "Helene Clinic comprehensive rejuvenation program",
+    "stage_5": "Post-treatment monitoring (2 weeks in Tokyo)",
+    "stage_6": "Remote follow-up with Riyadh partner clinic (King Faisal Specialist Hospital)",
+    "estimated_total_value_usd": 165000
+  }
+}

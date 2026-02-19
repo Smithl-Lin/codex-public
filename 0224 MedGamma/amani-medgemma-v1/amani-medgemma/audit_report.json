@@ -1,0 +1,91 @@
+{
+  "audit_date": "2026-02-18",
+  "overall_pass": true,
+  "rounds": {
+    "round1_builder": {
+      "pass": true,
+      "details": {
+        "case_a": {
+          "L1_present": true,
+          "L1_pass": true,
+          "L2_MedGemma": true,
+          "L2_Trinity": true,
+          "L2_TrialMatch": true,
+          "L2_AssetRes": true,
+          "L25_present": true,
+          "L3_present": true,
+          "no_errors": true,
+          "summary_top_trial": true,
+          "summary_asset_resolved": true
+        },
+        "case_b": {
+          "L1_present": true,
+          "L1_pass": true,
+          "L2_MedGemma": true,
+          "L2_Trinity": true,
+          "L2_TrialMatch": true,
+          "L2_AssetRes": true,
+          "L25_present": true,
+          "L3_present": true,
+          "no_errors": true,
+          "summary_top_trial": true,
+          "summary_asset_resolved": true
+        },
+        "case_c": {
+          "L1_present": true,
+          "L1_pass": true,
+          "L2_MedGemma": true,
+          "L2_Trinity": true,
+          "L2_TrialMatch": true,
+          "L2_AssetRes": true,
+          "L25_present": true,
+          "L3_present": true,
+          "no_errors": true,
+          "summary_top_trial": true,
+          "summary_asset_resolved": true
+        }
+      }
+    },
+    "round2_observer": {
+      "pass": true,
+      "details": {
+        "score_differentiation": true,
+        "elective_extension": true,
+        "noise_handled": true,
+        "scores": {
+          "case_a": 0.96,
+          "case_b": 0.8,
+          "case_c": 0.6
+        },
+        "urgency_days": {
+          "case_a": {
+            "urgency": "high",
+            "days": 340
+          },
+          "case_b": {
+            "urgency": "elective",
+            "days": 310
+          },
+          "case_c": {
+            "urgency": "high",
+            "days": 456
+          }
+        }
+      }
+    },
+    "round3_verifier": {
+      "pass": true,
+      "details": {
+        "model_id_correct": true,
+        "engine_mode_auto": true,
+        "no_hardcoded_keys": true,
+        "gradio_ui_builds": true,
+        "new_imports_ok": true,
+        "trinity_comment_updated": true,
+        "summary_new_fields": true
+      }
+    }
+  },
+  "issues": [],
+  "verdict": "SUBMISSION_READY"
+}

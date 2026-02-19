@@ -1,0 +1,101 @@
+# AMANI MedGemma — .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables & API keys
+.env
+.env.local
+.env.*.local
+*.key
+credentials.json
+secrets.json
+
+# MedGemma model cache
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Gradio cache
+gradio_cached_examples/
+flagged/
+
+# Screenshots (keep directory, ignore PNGs if too large)
+# screenshots/*.png
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.~*
+
+# Large data files
+*.csv
+*.pkl
+*.h5
+*.hdf5
+data/raw/
+data/processed/
+
+# Competition submission artifacts
+submission.zip
+*.tar.gz
+
+# Keep these
+!.gitignore
+!.env.trinity.example
+!README.md
+!requirements.txt

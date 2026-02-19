@@ -1,0 +1,44 @@
+# AMANI × MedGemma — Requirements
+# Core (always needed)
+gradio>=4.0
+
+# MedGemma inference (needed for GPU/CPU mode, not for mock mode)
+transformers>=4.45.0
+accelerate>=0.34.0
+torch>=2.1.0
+
+# Optional: Trinity-Audit Real API Mode
+# Only needed if using real GPT-4o + Claude API calls
+# Set AMANI_TRINITY_REAL_API=true to enable
+openai>=1.0.0        # For GPT-4o API
+anthropic>=0.18.0    # For Claude 3.5 Sonnet API
+
+# Optional: Image analysis
+# Pillow>=10.0
+
+# Optional: Environment variable management
+# python-dotenv>=1.0.0
+
+# ============================================
+# Installation Modes
+# ============================================
+#
+# 1. Mock Mode Only (minimal, demo-ready):
+#    pip install gradio
+#
+# 2. Mock Mode + Real MedGemma (GPU required):
+#    pip install gradio transformers accelerate torch
+#
+# 3. Full Real API Mode (GPT + Claude + MedGemma):
+#    pip install -r requirements.txt
+#
+# 4. For Kaggle submission (judges):
+#    pip install gradio  # Mock mode, no GPU dependency
+#
+# ============================================
+# Environment Variables
+# ============================================
+# AMANI_MOCK_MODE=true          # Use mock MedGemma (default)
+# AMANI_TRINITY_REAL_API=false  # Use mock Trinity (default)
+# OPENAI_API_KEY=sk-...         # Required for real Trinity
+# ANTHROPIC_API_KEY=sk-ant-...  # Required for real Trinity

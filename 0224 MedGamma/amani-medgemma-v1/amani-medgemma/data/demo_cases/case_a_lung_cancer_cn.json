@@ -1,0 +1,68 @@
+{
+  "case_id": "AMANI-DEMO-A",
+  "title": "Chinese Lung Cancer Patient Seeking Gene Therapy",
+  "language": "zh",
+  "patient_profile": {
+    "age": 52,
+    "sex": "Male",
+    "nationality": "Chinese",
+    "location": "Shanghai, China",
+    "primary_diagnosis": "Non-Small Cell Lung Cancer (NSCLC), Stage IIIB",
+    "histology": "Adenocarcinoma",
+    "molecular_markers": {
+      "EGFR": "L858R mutation positive",
+      "ALK": "Negative",
+      "ROS1": "Negative",
+      "PD_L1_TPS": "60%",
+      "KRAS_G12C": "Negative",
+      "TMB": "12 mut/Mb"
+    },
+    "prior_treatments": [
+      {"treatment": "Osimertinib (Tagrisso) 80mg daily", "duration_months": 14, "response": "Partial response then progression"},
+      {"treatment": "Carboplatin + Pemetrexed + Pembrolizumab", "cycles": 6, "response": "Stable disease x4 months then progression"},
+      {"treatment": "Docetaxel + Ramucirumab", "cycles": 3, "response": "Progressive disease"}
+    ],
+    "current_status": "Third-line failure, ECOG PS 1, seeking experimental options",
+    "comorbidities": ["Type 2 Diabetes (well-controlled)", "Hypertension"],
+    "insurance": "China National Medical Insurance + supplemental private"
+  },
+  "clinical_note_zh": "患者男性，52岁，非小细胞肺癌（腺癌）IIIB期。EGFR L858R阳性。三线治疗后进展。ECOG评分1分。患者强烈希望寻求基因治疗或CAR-T等前沿疗法。家属愿意承担跨境就医费用。需要匹配美国或欧洲正在进行的EGFR突变相关临床试验。",
+  "clinical_note_en": "52-year-old male with Stage IIIB NSCLC (adenocarcinoma), EGFR L858R positive. Failed three lines of therapy including osimertinib, platinum doublet with immunotherapy, and docetaxel/ramucirumab. ECOG PS 1. Patient strongly desires gene therapy or CAR-T frontier treatment. Family willing to fund cross-border medical travel. Require matching to active EGFR-mutation clinical trials in the US or Europe.",
+  "search_intent": {
+    "primary": "Gene therapy or CAR-T for EGFR+ NSCLC after 3rd-line failure",
+    "secondary": "Active clinical trials (Phase I/II) accepting international patients",
+    "geographic_preference": ["United States", "Europe"],
+    "urgency": "High - disease progressing"
+  },
+  "expected_agid_outputs": [
+    {
+      "agid": "AGID-NCT-06234517",
+      "resource_type": "Clinical Trial",
+      "title": "Phase I/II Trial of EGFR-Targeted CAR-T Cell Therapy in Advanced NSCLC",
+      "institution": "MD Anderson Cancer Center, Houston, TX",
+      "pi": "Dr. John Heymach",
+      "phase": "Phase I/II",
+      "status": "Recruiting",
+      "eligibility_match_score": 0.87
+    },
+    {
+      "agid": "AGID-NCT-05891234",
+      "resource_type": "Clinical Trial",
+      "title": "Bispecific Antibody + Anti-PD1 Combination for EGFR-mutant NSCLC",
+      "institution": "Memorial Sloan Kettering, New York, NY",
+      "pi": "Dr. Mark Kris",
+      "phase": "Phase II",
+      "status": "Recruiting",
+      "eligibility_match_score": 0.82
+    }
+  ],
+  "expected_tdls": {
+    "stage_1": "Eligibility verification + Medical record translation (EN)",
+    "stage_2": "Clinical trial enrollment at MD Anderson",
+    "stage_3": "Gene therapy / CAR-T administration",
+    "stage_4": "Post-treatment monitoring (3-month on-site)",
+    "stage_5": "Remote PI follow-up via telemedicine",
+    "stage_6": "Rehabilitation referral (Shanghai partner clinic)",
+    "estimated_total_value_usd": 185000
+  }
+}

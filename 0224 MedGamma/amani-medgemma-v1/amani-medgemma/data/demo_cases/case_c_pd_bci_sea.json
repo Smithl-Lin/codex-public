@@ -1,0 +1,123 @@
+{
+  "case_id": "AMANI-DEMO-C",
+  "title": "Southeast Asian Late-Stage Parkinson's Patient Seeking BCI Therapy",
+  "language": "th",
+  "patient_profile": {
+    "age": 61,
+    "sex": "Male",
+    "nationality": "Thai",
+    "location": "Bangkok, Thailand",
+    "primary_diagnosis": "Parkinson's Disease, Hoehn & Yahr Stage 4",
+    "disease_duration_years": 12,
+    "motor_assessment": {
+      "MDS_UPDRS_III_OFF": 62,
+      "MDS_UPDRS_III_ON": 38,
+      "LEDD_mg": 1200,
+      "motor_fluctuations": true,
+      "dyskinesia": "Moderate peak-dose dyskinesia (UDysRS 28)",
+      "freezing_of_gait": true,
+      "falls_per_month": 4
+    },
+    "non_motor_assessment": {
+      "MoCA": 22,
+      "GDS_15": 8,
+      "RBD_present": true,
+      "autonomic_dysfunction": "Orthostatic hypotension, constipation",
+      "sleep_disturbance": "REM sleep behavior disorder + insomnia"
+    },
+    "genetic_status": {
+      "LRRK2": "Negative",
+      "GBA": "N370S heterozygous carrier",
+      "SNCA": "Wild type"
+    },
+    "prior_treatments": [
+      {"treatment": "Levodopa/Carbidopa (Sinemet) titrated to 1200mg LEDD", "duration_years": 10, "response": "Wearing off + peak-dose dyskinesia"},
+      {"treatment": "Bilateral STN-DBS (Medtronic Percept PC)", "year": 2022, "center": "Chulalongkorn University Hospital", "response": "Good initial response, motor UPDRS improved 45%, now declining after 3 years"},
+      {"treatment": "LCIG (Duopa pump) trial", "duration_months": 3, "response": "Partial improvement but patient discontinued due to stoma complications"}
+    ],
+    "current_status": "DBS benefit declining. Motor fluctuations worsening despite optimization. Patient and family seeking next-generation neuromodulation (BCI) or advanced gene therapy.",
+    "patient_goals": "Explore BCI clinical trials or advanced neuromodulation options in the US",
+    "insurance": "Thai Social Security + self-pay for international treatment"
+  },
+  "clinical_note_th": "ผู้ป่วยชายไทย อายุ 61 ปี โรคพาร์กินสัน ระยะ H&Y 4 ระยะเวลาป่วย 12 ปี ได้รับการผ่าตัด DBS ที่โรงพยาบาลจุฬาลงกรณ์ปี 2022 ผลการรักษาลดลงหลัง 3 ปี ต้องการเข้าถึงการรักษา BCI หรือ gene therapy ในสหรัฐอเมริกา ครอบครัวพร้อมรับภาระค่าใช้จ่าย",
+  "clinical_note_en": "61-year-old Thai male with Parkinson's disease, H&Y Stage 4, 12-year disease duration. GBA N370S carrier. Bilateral STN-DBS implanted in 2022 at Chulalongkorn University Hospital — initial 45% motor improvement now declining. LEDD 1200mg with wearing off and peak-dose dyskinesia. MoCA 22. Falls 4x/month. Seeking next-generation BCI clinical trials or advanced gene therapy in the United States. Family willing to fund cross-border treatment.",
+  "search_intent": {
+    "primary": "Brain-Computer Interface (BCI) clinical trials for advanced Parkinson's disease",
+    "secondary": "Gene therapy for PD (GBA-targeted or AADC gene therapy)",
+    "tertiary": "Advanced closed-loop DBS or adaptive neurostimulation trials",
+    "geographic_preference": ["United States"],
+    "urgency": "High - functional decline accelerating"
+  },
+  "staircase_mapping": {
+    "gold_standard_completed": {
+      "level": "Gold Standard (DBS)",
+      "status": "Completed 2022, benefit declining",
+      "prerequisite_met": true,
+      "note": "Patent 1 Staircase Logic: Gold Standard DBS completed → Frontier Tech (BCI) unlocked"
+    },
+    "frontier_tech_candidates": [
+      {
+        "technology": "BCI - Implantable Neural Interface",
+        "dependency_check": "DBS experience required (MET)",
+        "cognitive_threshold": "MoCA ≥ 20 required (MET: 22)"
+      },
+      {
+        "technology": "AADC Gene Therapy (AAV2-hAADC)",
+        "dependency_check": "Prior DBS not exclusionary",
+        "genetic_check": "GBA carrier - additional monitoring required"
+      }
+    ]
+  },
+  "expected_agid_outputs": [
+    {
+      "agid": "AGID-NCT-06578901",
+      "resource_type": "Clinical Trial",
+      "title": "Phase I Trial of Implantable BCI for Motor Restoration in Advanced PD",
+      "institution": "University of California San Francisco (UCSF)",
+      "pi": "Dr. Philip Starr",
+      "phase": "Phase I",
+      "status": "Recruiting",
+      "eligibility_match_score": 0.91,
+      "pi_fingerprint": {
+        "h_index": 78,
+        "nct_trials_as_pi": 12,
+        "dbs_surgical_volume": 800,
+        "negative_risk_score": 0.0,
+        "frontier_boost_applied": true,
+        "g_pi_multiplier": 1.8
+      }
+    },
+    {
+      "agid": "AGID-NCT-06123456",
+      "resource_type": "Clinical Trial",
+      "title": "AAV2-hAADC Gene Therapy for Advanced Parkinson's Disease",
+      "institution": "UCSF / Neurocrine Biosciences",
+      "pi": "Dr. Krystof Bhankiewicz",
+      "phase": "Phase II",
+      "status": "Recruiting",
+      "eligibility_match_score": 0.78,
+      "note": "GBA carrier status requires additional safety monitoring per protocol"
+    },
+    {
+      "agid": "AGID-SYNC-BCI-001",
+      "resource_type": "Device Trial",
+      "title": "Synchron Stentrode BCI for Motor Neurodegenerative Conditions",
+      "institution": "Mount Sinai Hospital, New York",
+      "pi": "Dr. Shahram Bhangoo",
+      "phase": "Early Feasibility",
+      "status": "Enrolling by invitation",
+      "eligibility_match_score": 0.72
+    }
+  ],
+  "expected_tdls": {
+    "stage_1": "Pre-screening: DBS programming records export + MRI compatibility check",
+    "stage_2": "International patient application to UCSF BCI trial",
+    "stage_3": "Travel coordination: Bangkok → San Francisco (medical visa + accommodation)",
+    "stage_4": "BCI implantation + inpatient rehabilitation (4-6 weeks)",
+    "stage_5": "Post-operative neurorehabilitation + device calibration",
+    "stage_6": "Remote follow-up via telemedicine + Bangkok neurology partner (Chulalongkorn)",
+    "stage_7": "Longitudinal BCI data monitoring via secure cloud portal",
+    "estimated_total_value_usd": 320000
+  },
+  "smith_clinical_insight": "This case directly reflects my experience managing 2,000+ DBS patients. The DBS-to-BCI escalation pathway is a real clinical need that currently has NO systematic AI-driven solution. AMANI's Staircase Mapping Algorithm (Patent 1) was designed precisely for this scenario — verifying Gold Standard completion before unlocking Frontier Tech access."
+}
