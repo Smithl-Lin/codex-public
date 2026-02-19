@@ -127,7 +127,7 @@ python -X utf8 app.py --mode cli --case b
 python -X utf8 app.py --mode cli --case c
 
 # Gradio UI
-python app.py --mode ui
+python app.py --mode gradio
 
 # Audit
 python -X utf8 audit_rounds.py

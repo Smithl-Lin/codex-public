@@ -418,7 +418,7 @@ def build_gradio_app():
 
     def format_summary(summary):
         """Format executive summary."""
-        return f"""## Executive Summary
+        text = f"""## Executive Summary
 
 **Pipeline Status**: {summary.get('pipeline_status', 'UNKNOWN')}
 **D-value**: {summary.get('d_value', 0):.4f}
@@ -430,9 +430,8 @@ def build_gradio_app():
 **Patent Portfolio** (11 Patents Pending):
 """
         for patent in summary.get('patent_references', []):
-            return_text = f"- {patent}\n"
-
-        return return_text
+            text += f"- {patent}\n"
+        return text
 
     # Build Gradio interface with 4 tabs
     with gr.Blocks(

@@ -71,7 +71,7 @@ Within the 3-model consensus mechanism, MedGemma provides the medical domain per
 | **Condition** | NSCLC IIIB, EGFR L858R+ | Bilateral knee OA Grade III | Parkinson's H&Y Stage 4 |
 | **Note language** | Simplified Chinese (ZH) | English | Thai |
 | **Urgency** | High | Elective | High |
-| **Top trial** | NCT-06234517 | NCT-06891023 | NCT-06578901 |
+| **Top trial** | NCT-06234517 | JP-KEIO-REGEN-002 | NCT-06578901 |
 | **Trial score** | 0.96 | 0.80 | 0.60 |
 | **Pathway cost** | $190,500 | $170,000 | $311,000 |
 | **Duration** | 340 days | 310 days (×1.3) | 456 days |
